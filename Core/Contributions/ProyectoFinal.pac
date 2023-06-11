@@ -9,6 +9,7 @@ package classNames
 	add: #Cliente;
 	add: #Pelicula;
 	add: #Persona;
+	add: #Prueba;
 	add: #Sala;
 	yourself.
 
@@ -38,6 +39,11 @@ Object subclass: #Pelicula
 	classInstanceVariableNames: ''!
 Object subclass: #Persona
 	instanceVariableNames: 'DNI Nombre'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Object subclass: #Prueba
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	classInstanceVariableNames: ''!
@@ -102,6 +108,9 @@ CrearPelicula: unId Nombre: unNombre Duracion: unaDuracion
 Persona guid: (GUID fromString: '{2EC4D49D-8C0A-4748-A070-AC484B2BF634}')!
 Persona comment: ''!
 !Persona categoriesForClass!Kernel-Objects! !
+Prueba guid: (GUID fromString: '{B8BC94A0-C6F0-4E49-8AA1-E51734CD8F26}')!
+Prueba comment: ''!
+!Prueba categoriesForClass!Kernel-Objects! !
 Sala guid: (GUID fromString: '{CB7EB096-4257-42F5-B0C0-0DA485C6284C}')!
 Sala comment: ''!
 !Sala categoriesForClass!Kernel-Objects! !

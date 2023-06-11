@@ -926,3 +926,17 @@ CrearButacas: unaCantidad
 	^butacas! !
 !Sala class categoriesFor: #CrearButacas:!private! !
 
+Object subclass: #Prueba
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Prueba guid: (GUID fromString: '{B8BC94A0-C6F0-4E49-8AA1-E51734CD8F26}')!
+Prueba comment: ''!
+!Prueba categoriesForClass!Kernel-Objects! !
+Object subclass: #Prueba
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
