@@ -1,0 +1,928 @@
+"6:58:05 PM, Wednesday, March 30, 2016: Compressed sources"!
+
+DevelopmentSessionManager installNew!
+
+SessionManager current defaultResourceLibrary loadFlags: 0.
+SessionManager current stashBootInfo!
+
+"Ensure all structures have calculated size to avoid recompilation messages later"
+ExternalStructure allSubclasses do: [:e | e byteSize]!
+
+"Mark all the booted packages as base"
+Package manager markAllPackagesAsBase!
+
+SessionManager current saveImage!
+
+"6:59:05 PM, Wednesday, March 30, 2016: Image saved"!
+
+"Remove rogue .img and unnecessary .chg files"
+File delete: (File default: SessionManager current imagePath extension: 'img').
+File delete: 'DBOOT.chg'!
+
+SessionManager current quit!
+
+"21:19:04, lunes, 5 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+"21:23:05, lunes, 5 de junio de 2023: Uninstalling package 'ProyectoFinal'"!
+
+Object subclass: #Persona
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Persona guid: (GUID fromString: '{2EC4D49D-8C0A-4748-A070-AC484B2BF634}')!
+Persona comment: ''!
+!Persona categoriesForClass!Kernel-Objects! !
+Persona subclass: #Cliente
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Cliente guid: (GUID fromString: '{23FA2BD4-4F57-4AED-A093-7E4CF7162F57}')!
+Cliente comment: ''!
+!Cliente categoriesForClass!Kernel-Objects! !
+Object subclass: #Persona
+	instanceVariableNames: 'Nombre Apellido Telefono'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Persona subclass: #Cliente
+	instanceVariableNames: 'IdCliente'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Object subclass: #Persona
+	instanceVariableNames: 'DNI Nombre Apellido Telefono'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Cliente class methodsFor!
+CrearCliente:unDni Nombre:unNombre Apellido:unApellido Telefono:unTelefono! !
+!Cliente class categoriesFor: #CrearCliente:Nombre:Apellido:Telefono:!public! !
+
+!Cliente class methodsFor!
+CrearCliente:unDni Nombre:unNombre Apellido:unApellido Telefono:unTelefono
+! !
+!Cliente class categoriesFor: #CrearCliente:Nombre:Apellido:Telefono:!public! !
+
+!Cliente class methodsFor!
+CrearCliente:unDni Nombre:unNombre Apellido:unApellido Telefono:unTelefono IdCliente:unId
+! !
+!Cliente class categoriesFor: #CrearCliente:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+Cliente class removeSelector: #CrearCliente:Nombre:Apellido:Telefono: ifAbsent: []!
+
+!Cliente methodsFor!
+InitCliente:unDNI! !
+!Cliente categoriesFor: #InitCliente:!public! !
+
+!Cliente class methodsFor!
+CrearClienteDni:unDni Nombre:unNombre Apellido:unApellido Telefono:unTelefono IdCliente:unId
+! !
+!Cliente class categoriesFor: #CrearClienteDni:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+!Cliente class methodsFor!
+CrearCliente: unDni Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	! !
+!Cliente class categoriesFor: #CrearCliente:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+Cliente class removeSelector: #CrearCliente:Nombre:Apellido:Telefono:IdCliente: ifAbsent: []!
+
+!Cliente class methodsFor!
+CrearClienteDni: unDni Nombre: unNombre Apellido: unApellid Telefono: unTelefono IdCliente: unId
+	! !
+!Cliente class categoriesFor: #CrearClienteDni:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+!Cliente class methodsFor!
+CrearClienteDni: unDni Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	! !
+!Cliente class categoriesFor: #CrearClienteDni:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+!Cliente class methodsFor!
+CrearClienteDni: unDni Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	! !
+!Cliente class categoriesFor: #CrearClienteDni:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+!Cliente class methodsFor!
+CrearCliente: unDni Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	! !
+!Cliente class categoriesFor: #CrearCliente:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+Cliente class removeSelector: #CrearClienteDni:Nombre:Apellido:Telefono:IdCliente: ifAbsent: []!
+
+!Cliente methodsFor!
+InitCliente: unDNI Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	! !
+!Cliente categoriesFor: #InitCliente:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+Cliente removeSelector: #InitCliente: ifAbsent: []!
+
+!Cliente methodsFor!
+InitCliente: unDNI Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	Nombre := unNombre.
+	Apellido := unApellido.
+	Telefono := unTelefono! !
+!Cliente categoriesFor: #InitCliente:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+Persona subclass: #Cliente
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Cliente methodsFor!
+InitCliente: unDNI Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	Nombre := unNombre.
+	Apellido := unApellido.
+	Telefono := unTelefono! !
+!Cliente categoriesFor: #InitCliente:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+Persona subclass: #Cliente
+	instanceVariableNames: 'IdCliente'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Cliente methodsFor!
+InitCliente: unDNI Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	Nombre := unNombre.
+	Apellido := unApellido.
+	Telefono := unTelefono.
+IdCliente:=unId.! !
+!Cliente categoriesFor: #InitCliente:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+!Cliente methodsFor!
+InitCliente: unDNI Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	Nombre := unNombre.
+	Apellido := unApellido.
+	Telefono := unTelefono.
+	IdCliente := unId! !
+!Cliente categoriesFor: #InitCliente:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+!Cliente class methodsFor!
+CrearCliente: unDni Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	^self new
+		InitCliente: unDni
+		Nombre: unNombre
+		Apellido: unApellido
+		Telefono: unTelefono
+		IdCliente: unId! !
+!Cliente class categoriesFor: #CrearCliente:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+Object subclass: #Persona
+	instanceVariableNames: 'DNI Nombre'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Cliente methodsFor!
+InitCliente: unDNI Nombre: unNombre Apellido: unApellido Telefono: unTelefono IdCliente: unId
+	Nombre := unNombre.
+	IdCliente := unId! !
+!Cliente categoriesFor: #InitCliente:Nombre:Apellido:Telefono:IdCliente:!public! !
+
+!Cliente class methodsFor!
+CrearCliente: unDni Nombre: unNombre IdCliente: unId
+	^self new
+		InitCliente: unDni
+		Nombre: unNombre
+		IdCliente: unId! !
+!Cliente class categoriesFor: #CrearCliente:Nombre:IdCliente:!public! !
+
+!Cliente methodsFor!
+InitCliente: unDNI Nombre: unNombre IdCliente: unId
+	Nombre := unNombre.
+	IdCliente := unId.
+	DNI := unDNI! !
+!Cliente categoriesFor: #InitCliente:Nombre:IdCliente:!public! !
+
+Cliente removeSelector: #InitCliente:Nombre:Apellido:Telefono:IdCliente: ifAbsent: []!
+
+Cliente class removeSelector: #CrearCliente:Nombre:Apellido:Telefono:IdCliente: ifAbsent: []!
+
+"22:33:08, lunes, 5 de junio de 2023: Image saved"!
+
+"22:34:09, lunes, 5 de junio de 2023: Image saved"!
+
+"22:34:42, lunes, 5 de junio de 2023: Image saved"!
+
+"13:26:34, martes, 6 de junio de 2023: Image saved"!
+
+"18:52:29, martes, 6 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+Transcript clear.!
+
+|j|
+
+j:='hola'
+
+Transcript show:j.!
+
+|j|
+
+j:="hola"
+
+Transcript show:j.!
+
+|j|
+
+j:='hola'
+
+Transcript show:j.!
+
+Transcript show:'hola'.!
+
+|j|
+
+j:='hola'
+
+Transcript show:j.!
+
+Transcript show:'chau'.!
+
+Transcript clear.
+Transcript show:'chau'.!
+
+j:='hola'!
+
+|j|
+
+j:='hola'
+Transcript clear.
+Transcript show:(j).!
+
+Transcript clear.
+Transcript show:'hola'.!
+
+|j|
+
+j:='hola'
+Transcript clear.
+Transcript show:j asString!
+
+|j|
+
+j:='hola'
+Transcript clear.
+Transcript show:'hola'!
+
+|j|
+
+j:='hola'
+Transcript clear.
+Transcript show:'hola'.!
+
+Transcript clear.
+Transcript show:'hola'.!
+
+Transcript clear.
+Transcript show:'hola'.!
+
+|j|
+
+j:='hola'!
+
+|j|
+
+j:='hola'!
+
+|nombre|
+
+nombre:='hola'!
+
+|nombre|
+
+nombre:='hola'.!
+
+|nombre|!
+
+nombre:= Prompter prompt:'escribi algo'.!
+
+|nombre|
+nombre:= Prompter prompt:'escribi algo'.
+Transcript clear.
+Transcript show:nombre.!
+
+|nombre|
+nombre:= Prompter prompt:'escribi algo'.
+Transcript clear.
+Transcript show:nombre.!
+
+Transcript clear.
+Transcript show:'opcion1';cr.
+Transcript show:'opcion1'.
+Transcript show:'opcion1'.!
+
+Transcript clear.
+Transcript show:'opcion1';cr.
+Transcript show:'opcion1';cr.
+Transcript show:'opcion1';cr.!
+
+Object subclass: #Pelicula
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Pelicula guid: (GUID fromString: '{171B6668-A477-4A2D-A08B-524B8E107A8A}')!
+Pelicula comment: ''!
+!Pelicula categoriesForClass!Kernel-Objects! !
+Object subclass: #Pelicula
+	instanceVariableNames: 'IdPelicula Nombre Genero'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Pelicula methodsFor!
+InitPelicula:unNombre Genero:unGenero IdPelicula:unId
+Nombre:=unNombre.
+Genero:=unGenero.
+IdPelicula:=unId.! !
+!Pelicula categoriesFor: #InitPelicula:Genero:IdPelicula:!public! !
+
+!Pelicula class methodsFor!
+CrearPelicula:unNombre Gernero:unGenero IdPelicula:unId
+^(self new)InitPelicula:unNombre Genero:unGenero IdPelicula:unId.! !
+!Pelicula class categoriesFor: #CrearPelicula:Gernero:IdPelicula:!public! !
+
+Object subclass: #Butaca
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Butaca guid: (GUID fromString: '{BBFE2988-CB47-4ABC-9206-38F009D489AC}')!
+Butaca comment: ''!
+!Butaca categoriesForClass!Kernel-Objects! !
+Object subclass: #Butaca
+	instanceVariableNames: 'IdButaca BoolOcupada'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Butaca methodsFor!
+InitButaca:unId BoolOcupada:unBool
+IdButaca:=unId.
+BoolOcupada:=unBool.! !
+!Butaca categoriesFor: #InitButaca:BoolOcupada:!public! !
+
+!Butaca class methodsFor!
+CrearButaca:unId BoolOcupada:unBool
+^(self new)InitButaca:unId BoolOcupada:unBool.! !
+!Butaca class categoriesFor: #CrearButaca:BoolOcupada:!public! !
+
+Object subclass: #Sala
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Sala guid: (GUID fromString: '{9B990C60-3715-48F7-A8D4-3B3B11EF9870}')!
+Sala comment: ''!
+!Sala categoriesForClass!Kernel-Objects! !
+Object subclass: #Sala
+	instanceVariableNames: 'IdSala Butacas Peliculas CantButacas'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Sala methodsFor!
+InitSala:unId Pelicula:unaPelicula CantButacas:unaCantidad
+Peliculas:=unaPelicula.
+CantButacas:=unaCantidad.
+IdSala:=unId.
+ ! !
+!Sala categoriesFor: #InitSala:Pelicula:CantButacas:!public! !
+
+Object subclass: #Sala
+	instanceVariableNames: 'IdSala Butacas Pelicula CantButacas'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Sala methodsFor!
+InitSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	Pelicula := unaPelicula.
+	CantButacas := unaCantidad.
+	IdSala := unId! !
+!Sala categoriesFor: #InitSala:Pelicula:CantButacas:!public! !
+
+!Sala class methodsFor!
+CrearSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+^(self new)InitSala: unId Pelicula: unaPelicula CantButacas: unaCantidad.! !
+!Sala class categoriesFor: #CrearSala:Pelicula:CantButacas:!public! !
+
+!Sala methodsFor!
+CrearButacas:unaCantidad
+|contador butacas butaca|
+contador:=0.
+butacas:= OrderedCollection new.
+[contador <=  unaCantidad ] whileTrue:[
+butaca:= Butaca CrearButaca: (contador + 1) BoolOcupada: false.
+butacas add: butaca.
+].
+^butacas.! !
+!Sala categoriesFor: #CrearButacas:!public! !
+
+!Sala methodsFor!
+InitSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	Pelicula := unaPelicula.
+	CantButacas := unaCantidad.
+	IdSala := unId! !
+!Sala categoriesFor: #InitSala:Pelicula:CantButacas:!public! !
+
+!Sala class methodsFor!
+CrearButacas:unaCantidad
+|contador butacas butaca|
+contador:=0.
+butacas:= OrderedCollection new.
+[contador <=  unaCantidad ] whileTrue:[
+butaca:= Butaca CrearButaca: (contador + 1) BoolOcupada: false.
+butacas add: butaca.
+].
+^butacas.! !
+!Sala class categoriesFor: #CrearButacas:!public! !
+
+!Sala methodsFor!
+InitSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	Pelicula := unaPelicula.
+	CantButacas := unaCantidad.
+	IdSala := unId.
+	Butacas:= Sala CrearButacas:unaCantidad.! !
+!Sala categoriesFor: #InitSala:Pelicula:CantButacas:!public! !
+
+Sala removeSelector: #CrearButacas: ifAbsent: []!
+
+!Sala methodsFor!
+InitSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	Pelicula := unaPelicula.
+	CantButacas := unaCantidad.
+	IdSala := unId.
+	Butacas := Sala CrearButacas: unaCantidad! !
+!Sala categoriesFor: #InitSala:Pelicula:CantButacas:!public! !
+
+!Sala class categoriesFor: #CrearSala:Pelicula:CantButacas:!helpers!public! !
+
+|sala|
+
+sala:= Sala CrearSala: 1 Pelicula: 'Rocky II' CantButacas: 10.!
+
+"21:13:34, martes, 6 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+Object subclass: #Butaca
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Butaca guid: (GUID fromString: '{B1F1EA07-E0E2-4C1C-ADFD-C86F70E045FB}')!
+Butaca comment: ''!
+!Butaca categoriesForClass!Kernel-Objects! !
+Object subclass: #Butaca
+	instanceVariableNames: 'IdButaca Ocupada'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Butaca methodsFor!
+InitButaca:unId Ocupada:unBool
+! !
+!Butaca categoriesFor: #InitButaca:Ocupada:!public! !
+
+!Butaca methodsFor!
+InitButaca: unId Ocupada: unBool
+	IdButaca := unId.
+	Ocupada := unBool! !
+!Butaca categoriesFor: #InitButaca:Ocupada:!public! !
+
+!Butaca class methodsFor!
+CrearButaca: unId Ocupada: unBool
+^(self new)InitButaca: unId Ocupada: unBool.! !
+!Butaca class categoriesFor: #CrearButaca:Ocupada:!public! !
+
+!Butaca class methodsFor!
+CrearButaca: unId Ocupada: unBool
+^(self new)InitButaca: unId Ocupada: unBool.! !
+!Butaca class categoriesFor: #CrearButaca:Ocupada:!public! !
+
+|butacas butaca contador|
+
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].!
+
+|butacas butaca contador|
+
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].!
+
+|butacas butaca contador|
+
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].
+
+Inspector butacas.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].
+
+Inspector inspect: butacas.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].
+
+Inspector inspect: butacas.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].
+
+Inspector inspect: contador.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].
+
+Inspector inspect: contador.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].
+
+Inspector inspect: contador.
+!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:=(contador + 1).
+].
+
+Inspector inspect: mensaje.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador+= 1.
+].
+
+Inspector inspect: mensaje.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:= (contador + 1).
+].
+
+Inspector inspect: mensaje.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:= (contador + 1).
+].
+
+Inspector inspect: mensaje.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:= (contador + 1).
+].
+!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:= (contador + 1).
+].!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=1.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:= (contador + 1).
+].!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=1.
+butacas:= OrderedCollection new.
+"[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:= (contador + 1).
+]."
+
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+
+Inspector inspect: butacas.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=1.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=1.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=1.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=1.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+contador:=1.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+Inspector inspect: mensaje.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+Inspector inspect it: mensaje.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+mensaje Inspect.!
+
+|butacas butaca contador mensaje|
+mensaje:='hola'.
+mensaje inspect.!
+
+|butacas butaca contador|
+
+contador:=0.
+butacas:= OrderedCollection new.
+[contador < 10] whileTrue:[
+butaca:= Butaca CrearButaca: contador Ocupada: false.
+butacas add: butaca.
+contador:= (contador + 1).
+].
+butacas inspect.!
+
+Object subclass: #Pelicula
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Pelicula guid: (GUID fromString: '{4A246601-082D-4FE4-85FE-1BAAE692AC00}')!
+Pelicula comment: ''!
+!Pelicula categoriesForClass!Kernel-Objects! !
+Object subclass: #Pelicula
+	instanceVariableNames: 'IdPelicula Nombre Duracion'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Pelicula methodsFor!
+InitPelicula: unId Nombre: unNombre Duracion: unaDuracion
+	IdPelicula := unId.
+	Nombre := unNombre.
+	Duracion := unaDuracion! !
+!Pelicula categoriesFor: #InitPelicula:Nombre:Duracion:!public! !
+
+!Pelicula class methodsFor!
+CrearPelicula: unId Nombre: unNombre Duracion: unaDuracion
+	^self new
+		InitPelicula: unId
+		Nombre: unNombre
+		Duracion: unaDuracion! !
+!Pelicula class categoriesFor: #CrearPelicula:Nombre:Duracion:!public! !
+
+Object subclass: #Sala
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Sala guid: (GUID fromString: '{CB7EB096-4257-42F5-B0C0-0DA485C6284C}')!
+Sala comment: ''!
+!Sala categoriesForClass!Kernel-Objects! !
+Object subclass: #Sala
+	instanceVariableNames: 'IdSala Pelicula Butacas CantButacas'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Sala methodsFor!
+InitSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	IdSala := unId.
+	Pelicula := unaPelicula.
+	CantButacas := unaCantidad! !
+!Sala categoriesFor: #InitSala:Pelicula:CantButacas:!public! !
+
+!Sala class methodsFor!
+CrearSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	^self new
+		InitSala: unId
+		Pelicula: unaPelicula
+		CantButacas: unaCantidad! !
+!Sala class categoriesFor: #CrearSala:Pelicula:CantButacas:!public! !
+
+!Sala class methodsFor!
+CrearButacas: unaCantidad
+	| butacas butaca contador |
+	contador := 0.
+	butacas := OrderedCollection new.
+	[contador < unaCantidad] whileTrue: 
+			[butaca := Butaca CrearButaca: contador Ocupada: false.
+			butacas add: butaca.
+			contador := contador + 1].
+	^butacas! !
+!Sala class categoriesFor: #CrearButacas:!public! !
+
+!Sala class methodsFor!
+CrearSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	^self new
+		InitSala: unId
+		Pelicula: unaPelicula
+		CantButacas: unaCantidad! !
+!Sala class categoriesFor: #CrearSala:Pelicula:CantButacas:!public! !
+
+!Sala methodsFor!
+InitSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	IdSala := unId.
+	Pelicula := unaPelicula.
+	CantButacas := unaCantidad.
+	Butacas := Sala CrearButacas: unaCantidad! !
+!Sala categoriesFor: #InitSala:Pelicula:CantButacas:!public! !
+
+!Sala class methodsFor!
+_CrearButacas: unaCantidad
+	| butacas butaca contador |
+	contador := 0.
+	butacas := OrderedCollection new.
+	[contador < unaCantidad] whileTrue: 
+			[butaca := Butaca CrearButaca: contador Ocupada: false.
+			butacas add: butaca.
+			contador := contador + 1].
+	^butacas! !
+!Sala class categoriesFor: #_CrearButacas:!public! !
+
+!Sala class methodsFor!
+__CrearButacas: unaCantidad
+	| butacas butaca contador |
+	contador := 0.
+	butacas := OrderedCollection new.
+	[contador < unaCantidad] whileTrue: 
+			[butaca := Butaca CrearButaca: contador Ocupada: false.
+			butacas add: butaca.
+			contador := contador + 1].
+	^butacas! !
+!Sala class categoriesFor: #__CrearButacas:!public! !
+
+Sala class removeSelector: #_CrearButacas: ifAbsent: []!
+
+Sala class removeSelector: #__CrearButacas: ifAbsent: []!
+
+!Sala class categoriesFor: #CrearButacas:!private! !
+
+!Sala class methodsFor!
+CrearButacas: unaCantidad
+	| butacas butaca contador |
+	contador := 0.
+	butacas := OrderedCollection new.
+	[contador < unaCantidad] whileTrue: 
+			[butaca := Butaca CrearButaca: contador Ocupada: false.
+			butacas add: butaca.
+			contador := contador + 1].
+	^butacas! !
+!Sala class categoriesFor: #CrearButacas:!private! !
+
+|sala|
+
+sala:= Sala CrearSala: 1 Pelicula: 'Rocky II' CantButacas: 5.
+sala inspect.!
+
+!Sala class methodsFor!
+CrearButacas: unaCantidad
+	| butacas butaca contador |
+	contador := 0.
+	butacas := OrderedCollection new.
+	[contador < unaCantidad] whileTrue: 
+			[butaca := Butaca CrearButaca: contador Ocupada: false.
+			butacas add: butaca.
+			contador := contador + 1].
+	^butacas! !
+!Sala class categoriesFor: #CrearButacas:!private! !
+

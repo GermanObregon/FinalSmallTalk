@@ -1,0 +1,1080 @@
+19:00:33, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Transcript')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+19:00:54, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('UndefinedObject does not understand #appendToStream:')
+
+Object>>doesNotUnderstand:
+WriteStream>>nextPutAll:
+[] in TranscriptShell>>nextPutAll:
+[] in Mutex>>critical:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Mutex>>critical:
+TranscriptShell>>nextPutAll:
+TranscriptShell>>show:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+19:07:23, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Transcript')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+19:09:19, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Transcript')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+19:11:53, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Transcript')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+19:24:07, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Transcript')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+19:25:32, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Transcript')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+19:25:49, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Transcript')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+
+********************************************************************************
+************************** Dolphin Crash Dump Report ***************************
+
+21:13:03 PM, 6/6/2023: Dolphin7.exe caused an unhandled Win32 Exception A0000202
+at 76C8D6C2 in module 76B50000 (C:\WINDOWS\System32\KERNELBASE.dll)
+
+*----> Exception Parameters <----*
+00FFFC00	újŠ
+00001000	
+01000000	0
+
+*----> CPU Context for thread 0x7604 <----*
+EAX = 00C0F3B0 EBX = 05A12000 ECX = 00000003
+ESI = 2004C000 EDI = 00000000 EIP = 76C8D6C2
+ESP = 00C0F3B0 EBP = 00C0F408 EFL = 00000212
+CS = 0023 SS = 002B DS = 002B
+ES = 002B FS = 0053 GS = 002B
+
+*----> VM Context <----*
+Process: {05A10004:size 415 words, suspended frame 05A10669, priority 5, callbacks 1
+last failure 0:nil, FPE mask 3, thread 00000000}
+Active Method: 103BCD70 class>>CrearButaca:BoolOcupada:
+IP: 00DADE90 (-179604592)
+SP: 05A1065C
+BP: 05A1063C (383)
+ActiveFrame: {05A10644: cf 05A10621, sp 00000000, bp 05A1063C, ip 0, 103BCD70 class>>CrearButaca:BoolOcupada:}
+	receiver: Butaca
+	arg[0]: 1
+	arg[1]: false
+
+
+New Method: Behavior>>new
+Message Selector: new
+
+*----> Stack Back Trace <----*
+{05A10644: cf 05A10621, sp 00000000, bp 05A1063C, ip 0, 103BCD70 class>>CrearButaca:BoolOcupada:}
+	receiver: Butaca
+	arg[0]: 1
+	arg[1]: false
+
+{05A10620: cf 05A105F5, sp 05A10634, bp 05A10610, ip 16, 103C52E0 class>>CrearButacas:}
+	receiver: Sala
+	arg[0]: 10
+	stack temp[0]: 0
+	stack temp[1]: a OrderedCollection
+	stack temp[2]: a Butaca
+
+{05A105F4: cf 05A105CD, sp 05A10608, bp 05A105E8, ip 10, Sala>>InitSala:Pelicula:CantButacas:}
+	receiver: a Sala
+	arg[0]: 1
+	arg[1]: 'Rocky II'
+	arg[2]: 10
+
+{05A105CC: cf 05A105A5, sp 05A105E0, bp 05A105C0, ip 8, 103C52E0 class>>CrearSala:Pelicula:CantButacas:}
+	receiver: Sala
+	arg[0]: 1
+	arg[1]: 'Rocky II'
+	arg[2]: 10
+
+{05A105A4: cf 05A10585, sp 05A105B8, bp 05A105A0, ip 8, UndefinedObject>>**Non-symbol: 'doIt'**}
+	receiver: nil
+	stack temp[0]: nil
+
+{05A10584: cf 05A10565, sp 05A10598, bp 05A10580, ip 4, CompiledExpression>>value:}
+	receiver: a CompiledExpression
+	arg[0]: nil
+
+{05A10564: cf 05A10535, sp 05A10578, bp 05A10550, ip 28, SmalltalkWorkspace>>evaluateRange:ifFail:debug:}
+	receiver: a SmalltalkWorkspace
+	arg[0]: a Interval
+	arg[1]: [] @ 12 in SmalltalkWorkspace>>evaluateItIfFail:debug:
+	arg[2]: false
+	stack temp[0]: a CompilationResult
+	stack temp[1]: nil
+
+{05A10534: cf 05A10505, sp 05A10548, bp 05A10520, ip 18, SmalltalkWorkspace>>evaluateItIfFail:debug:}
+	receiver: a SmalltalkWorkspace
+	arg[0]: [] @ 9 in SmalltalkWorkspace>>inspectIt
+	arg[1]: false
+	stack temp[0]: a Interval
+	stack temp[1]: nil
+	stack temp[2]: nil
+
+{05A10504: cf 05A104E5, sp 05A10518, bp 05A10500, ip 4, SmalltalkWorkspace>>evaluateItIfFail:}
+	receiver: a SmalltalkWorkspace
+	arg[0]: [] @ 9 in SmalltalkWorkspace>>inspectIt
+
+{05A104E4: cf 05A104C9, sp 05A104F8, bp 05A104E4, ip 12, SmalltalkWorkspace>>inspectIt}
+	receiver: a SmalltalkWorkspace
+
+{05A104C8: cf 05A104A9, sp 05A104DC, bp 05A104C4, ip 4, Symbol>>forwardTo:}
+	receiver: inspectIt
+	arg[0]: a SmalltalkWorkspace
+
+{05A104A8: cf 05A10489, sp 05A104BC, bp 05A104A4, ip 4, CommandDescription>>performAgainst:}
+	receiver: a CommandDescription
+	arg[0]: a SmalltalkWorkspace
+
+{05A10488: cf 05A10465, sp 05A1049C, bp 05A10488, ip 14, [] in Command>>value}
+	receiver: a Command
+
+{05A10464: cf 05A10445, sp 05A10478, bp 05A10460, ip 18, BlockClosure>>ifCurtailed:}
+	receiver: [] @ 0 in nil
+	arg[0]: [] @ 17 in Command>>value
+
+{05A10444: cf 05A10421, sp 05A10458, bp 05A1043C, ip 3, BlockClosure>>ensure:}
+	receiver: [] @ 11 in Command>>value
+	arg[0]: [] @ 17 in Command>>value
+	stack temp[0]: nil
+
+{05A10420: cf 05A10405, sp 05A10434, bp 05A10420, ip 22, Command>>value}
+	receiver: a Command
+
+{05A10404: cf 05A103E5, sp 05A10418, bp 05A10400, ip 30, ShellView>>performCommand:}
+	receiver: a ShellView
+	arg[0]: a Command
+
+{05A103E4: cf 05A103C5, sp 05A103F8, bp 05A103E0, ip 4, SmalltalkWorkspaceDocument(Shell)>>performCommand:}
+	receiver: a SmalltalkWorkspaceDocument
+	arg[0]: a Command
+
+{05A103C4: cf 05A1039D, sp 05A103D8, bp 05A103B8, ip 10, CommandQuery>>perform}
+	receiver: a CommandQuery
+	stack temp[0]: a Command
+	stack temp[1]: nil
+	stack temp[2]: a SmalltalkWorkspaceDocument
+
+{05A1039C: cf 05A10379, sp 05A103B0, bp 05A10394, ip 8, DelegatingCommandPolicy(CommandPolicy)>>route:}
+	receiver: a DelegatingCommandPolicy
+	arg[0]: a CommandDescription
+	stack temp[0]: a CommandQuery
+
+{05A10378: cf 05A10351, sp 05A1038C, bp 05A10374, ip 15, [] in ScintillaView(View)>>onCommand:}
+	receiver: a ScintillaView
+
+{05A10350: cf 05A10331, sp 05A10364, bp 05A1034C, ip 18, BlockClosure>>ifCurtailed:}
+	receiver: [] @ 0 in nil
+	arg[0]: [] @ 18 in Cursor>>showWhile:
+
+{05A10330: cf 05A1030D, sp 05A10344, bp 05A10328, ip 3, BlockClosure>>ensure:}
+	receiver: [] @ 11 in View>>onCommand:
+	arg[0]: [] @ 18 in Cursor>>showWhile:
+	stack temp[0]: nil
+
+{05A1030C: cf 05A102E5, sp 05A10320, bp 05A10300, ip 27, Cursor>>showWhile:}
+	receiver: a Cursor
+	arg[0]: [] @ 11 in View>>onCommand:
+	stack temp[0]: nil
+	stack temp[1]: a ExternalHandle(00010003)
+
+{05A102E4: cf 05A102C1, sp 05A102F8, bp 05A102DC, ip 17, ScintillaView(View)>>onCommand:}
+	receiver: a ScintillaView
+	arg[0]: a CommandDescription
+	stack temp[0]: nil
+
+{05A102C0: cf 05A1028D, sp 05A102D4, bp 05A102A8, ip 19, ScintillaView(View)>>wmCommand:wParam:lParam:}
+	receiver: a ScintillaView
+	arg[0]: 273
+	arg[1]: 8395
+	arg[2]: 0
+	stack temp[0]: 8395
+	stack temp[1]: a CommandDescription
+	stack temp[2]: nil
+
+{05A1028C: cf 05A1025D, sp 05A102A0, bp 05A10278, ip 23, ScintillaView(View)>>dispatchMessage:wParam:lParam:}
+	receiver: a ScintillaView
+	arg[0]: 273
+	arg[1]: 8395
+	arg[2]: 0
+	stack temp[0]: nil
+	stack temp[1]: wmCommand:wParam:lParam:
+
+{05A1025C: cf 05A10229, sp 05A10270, bp 05A1024C, ip 70, [] in InputState>>wndProc:message:wParam:lParam:cookie:}
+	receiver: nil
+
+{05A10228: cf 05A10201, sp 05A1023C, bp 05A10224, ip 18, BlockClosure>>ifCurtailed:}
+	receiver: [] @ 0 in nil
+	arg[0]: [] @ 11 in ProcessorScheduler>>callback:evaluate:
+
+{05A10200: cf 05A101DD, sp 05A1021C, bp 05A101F8, ip 15, ProcessorScheduler>>callback:evaluate:}
+	receiver: a ProcessorScheduler
+	arg[0]: 6323630
+	arg[1]: [] @ 64 in InputState>>wndProc:message:wParam:lParam:cookie:
+
+{05A101DC: cf 05A101A1, sp 05A101F0, bp 05A101C4, ip 73, InputState>>wndProc:message:wParam:lParam:cookie:}
+	receiver: a InputState
+	arg[0]: 1052120
+	arg[1]: 273
+	arg[2]: 8395
+	arg[3]: 0
+	arg[4]: 6323630
+	stack temp[0]: a ScintillaView
+
+{05A101A0: cf 05A10181, sp 05A101BC, bp 05A1019C, ip 28, InputState>>pumpMessage:}
+	receiver: a InputState
+	arg[0]: a MSG
+
+{05A10180: cf 05A10155, sp 05A10194, bp 05A10170, ip 18, InputState>>loopWhile:}
+	receiver: a InputState
+	arg[0]: [] @ 9 in InputState>>mainLoop
+	stack temp[0]: a MSG
+	stack temp[1]: true
+	stack temp[2]: [] @ 8 in Toolbar>>updateSizePosted
+
+{05A10154: cf 05A10139, sp 05A10168, bp 05A10154, ip 15, InputState>>mainLoop}
+	receiver: a InputState
+
+{05A10138: cf 05A1011D, sp 05A1014C, bp 05A10138, ip 14, [] in InputState>>forkMain}
+	receiver: a InputState
+
+{05A1011C: cf 05A10101, sp 05A10130, bp 05A1011C, ip 13, ExceptionHandler(ExceptionHandlerAbstract)>>markAndTry}
+	receiver: a ExceptionHandler
+
+{05A10100: cf 05A100D9, sp 05A10114, bp 05A100FC, ip 22, [] in ExceptionHandler(ExceptionHandlerAbstract)>>try:}
+	receiver: a ExceptionHandler
+
+{05A100D8: cf 05A100B9, sp 05A100EC, bp 05A100D4, ip 18, BlockClosure>>ifCurtailed:}
+	receiver: [] @ 0 in nil
+	arg[0]: [] @ 39 in ExceptionHandlerAbstract>>try:
+
+{05A100B8: cf 05A10095, sp 05A100CC, bp 05A100B0, ip 3, BlockClosure>>ensure:}
+	receiver: [] @ 17 in ExceptionHandlerAbstract>>try:
+	arg[0]: [] @ 39 in ExceptionHandlerAbstract>>try:
+	stack temp[0]: nil
+
+{05A10094: cf 05A1006D, sp 05A100A8, bp 05A10088, ip 44, ExceptionHandler(ExceptionHandlerAbstract)>>try:}
+	receiver: a ExceptionHandler
+	arg[0]: [] @ 10 in InputState>>forkMain
+	stack temp[0]: nil
+	stack temp[1]: a Process('Main' base 05A10000 [ACTIVE] in 103BCD70 class>>CrearButaca:BoolOcupada: sp=00000000 ip=0 list=10050010)
+	env temp[0]: nil
+
+{05A1006C: cf 05A10049, sp 05A10080, bp 05A10064, ip 7, BlockClosure>>on:do:}
+	receiver: [] @ 10 in InputState>>forkMain
+	arg[0]: ProcessTermination
+	arg[1]: [] @ 13 in BlockClosure>>newProcess
+
+{05A10048: cf 00000001, sp 05A1005C, bp 05A10048, ip 17, [] in BlockClosure>>newProcess}
+	receiver: [] @ 10 in InputState>>forkMain
+
+<Bottom of stack>
+
+*----> Stack <----*
+[05A1065C: 391]-->Butaca
+[05A10658: 390]-->47219486
+[05A10654: 389]-->0
+[05A10650: 388]-->0
+[05A1064C: 387]-->47219472
+[05A10648: 386]-->0
+[05A10644: 385]-->103BCD70 class>>CrearButaca:BoolOcupada:
+[05A10640: 384]-->false
+[05A1063C: 383]-->1
+[05A10638: 382]-->Butaca
+[05A10634: 381]-->47219464
+[05A10630: 380]-->47219482
+[05A1062C: 379]-->15
+[05A10628: 378]-->47219450
+[05A10624: 377]-->0
+[05A10620: 376]-->103C52E0 class>>CrearButacas:
+[05A1061C: 375]-->a Butaca
+[05A10618: 374]-->a OrderedCollection
+[05A10614: 373]-->0
+[05A10610: 372]-->10
+[05A1060C: 371]-->Sala
+[05A10608: 370]-->47219444
+[05A10604: 369]-->47219460
+[05A10600: 368]-->9
+[05A105FC: 367]-->47219430
+[05A105F8: 366]-->0
+[05A105F4: 365]-->Sala>>InitSala:Pelicula:CantButacas:
+[05A105F0: 364]-->10
+[05A105EC: 363]-->'Rocky II'
+[05A105E8: 362]-->1
+[05A105E4: 361]-->a Sala
+[05A105E0: 360]-->47219424
+[05A105DC: 359]-->47219440
+[05A105D8: 358]-->7
+[05A105D4: 357]-->47219410
+[05A105D0: 356]-->0
+[05A105CC: 355]-->103C52E0 class>>CrearSala:Pelicula:CantButacas:
+[05A105C8: 354]-->10
+[05A105C4: 353]-->'Rocky II'
+[05A105C0: 352]-->1
+[05A105BC: 351]-->Sala
+[05A105B8: 350]-->47219408
+[05A105B4: 349]-->47219420
+[05A105B0: 348]-->7
+[05A105AC: 347]-->47219394
+[05A105A8: 346]-->0
+[05A105A4: 345]-->a CompiledExpression
+[05A105A0: 344]-->nil
+[05A1059C: 343]-->nil
+[05A10598: 342]-->47219392
+[05A10594: 341]-->47219404
+[05A10590: 340]-->3
+[05A1058C: 339]-->47219378
+[05A10588: 338]-->0
+[05A10584: 337]-->CompiledExpression>>value:
+[05A10580: 336]-->nil
+[05A1057C: 335]-->a CompiledExpression
+[05A10578: 334]-->47219368
+[05A10574: 333]-->47219388
+[05A10570: 332]-->27
+[05A1056C: 331]-->47219354
+[05A10568: 330]-->0
+[05A10564: 329]-->SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+[05A10560: 328]-->nil
+[05A1055C: 327]-->a CompilationResult
+[05A10558: 326]-->false
+[05A10554: 325]-->[] @ 12 in SmalltalkWorkspace>>evaluateItIfFail:debug:
+[05A10550: 324]-->a Interval
+[05A1054C: 323]-->a SmalltalkWorkspace
+[05A10548: 322]-->47219344
+[05A10544: 321]-->47219364
+[05A10540: 320]-->17
+[05A1053C: 319]-->47219330
+[05A10538: 318]-->a Context for: nil frame: 5a10535
+[05A10534: 317]-->SmalltalkWorkspace>>evaluateItIfFail:debug:
+[05A10530: 316]-->nil
+[05A1052C: 315]-->nil
+[05A10528: 314]-->a Interval
+[05A10524: 313]-->false
+[05A10520: 312]-->[] @ 9 in SmalltalkWorkspace>>inspectIt
+[05A1051C: 311]-->a SmalltalkWorkspace
+[05A10518: 310]-->47219328
+[05A10514: 309]-->47219340
+[05A10510: 308]-->3
+[05A1050C: 307]-->47219314
+[05A10508: 306]-->0
+[05A10504: 305]-->SmalltalkWorkspace>>evaluateItIfFail:
+[05A10500: 304]-->[] @ 9 in SmalltalkWorkspace>>inspectIt
+[05A104FC: 303]-->a SmalltalkWorkspace
+[05A104F8: 302]-->47219314
+[05A104F4: 301]-->47219324
+[05A104F0: 300]-->11
+[05A104EC: 299]-->47219300
+[05A104E8: 298]-->a Context for: nil frame: 5a104e5
+[05A104E4: 297]-->SmalltalkWorkspace>>inspectIt
+[05A104E0: 296]-->a SmalltalkWorkspace
+[05A104DC: 295]-->47219298
+[05A104D8: 294]-->47219310
+[05A104D4: 293]-->3
+[05A104D0: 292]-->47219284
+[05A104CC: 291]-->0
+[05A104C8: 290]-->Symbol>>forwardTo:
+[05A104C4: 289]-->a SmalltalkWorkspace
+[05A104C0: 288]-->inspectIt
+[05A104BC: 287]-->47219282
+[05A104B8: 286]-->47219294
+[05A104B4: 285]-->3
+[05A104B0: 284]-->47219268
+[05A104AC: 283]-->0
+[05A104A8: 282]-->CommandDescription>>performAgainst:
+[05A104A4: 281]-->a SmalltalkWorkspace
+[05A104A0: 280]-->a CommandDescription
+[05A1049C: 279]-->47219268
+[05A10498: 278]-->47219278
+[05A10494: 277]-->13
+[05A10490: 276]-->47219250
+[05A1048C: 275]-->[] @ 11 in Command>>value
+[05A10488: 274]-->Command>>value
+[05A10484: 273]-->a Command
+[05A10480: 272]-->[] @ 9 in BlockClosure>>ifCurtailed:
+[05A1047C: 271]-->[] @ 11 in Command>>value
+[05A10478: 270]-->47219248
+[05A10474: 269]-->47219260
+[05A10470: 268]-->17
+[05A1046C: 267]-->47219234
+[05A10468: 266]-->0
+[05A10464: 265]-->BlockClosure>>ifCurtailed:
+[05A10460: 264]-->[] @ 17 in Command>>value
+[05A1045C: 263]-->[] @ 0 in nil
+[05A10458: 262]-->47219230
+[05A10454: 261]-->47219244
+[05A10450: 260]-->2
+[05A1044C: 259]-->47219216
+[05A10448: 258]-->0
+[05A10444: 257]-->BlockClosure>>ensure:
+[05A10440: 256]-->nil
+[05A1043C: 255]-->[] @ 17 in Command>>value
+[05A10438: 254]-->[] @ 11 in Command>>value
+[05A10434: 253]-->47219216
+[05A10430: 252]-->47219226
+[05A1042C: 251]-->21
+[05A10428: 250]-->47219202
+[05A10424: 249]-->0
+[05A10420: 248]-->Command>>value
+[05A1041C: 247]-->a Command
+[05A10418: 246]-->47219200
+[05A10414: 245]-->47219212
+[05A10410: 244]-->29
+[05A1040C: 243]-->47219186
+[05A10408: 242]-->0
+...
+<90 slots omitted>
+...
+[05A1029C: 151]-->47219024
+[05A10298: 150]-->22
+[05A10294: 149]-->47218990
+[05A10290: 148]-->0
+[05A1028C: 147]-->View>>dispatchMessage:wParam:lParam:
+[05A10288: 146]-->wmCommand:wParam:lParam:
+[05A10284: 145]-->nil
+[05A10280: 144]-->0
+[05A1027C: 143]-->8395
+[05A10278: 142]-->273
+[05A10274: 141]-->a ScintillaView
+[05A10270: 140]-->47218982
+[05A1026C: 139]-->47219000
+[05A10268: 138]-->69
+[05A10264: 137]-->47218964
+[05A10260: 136]-->[] @ 64 in InputState>>wndProc:message:wParam:lParam:cookie:
+[05A1025C: 135]-->InputState>>wndProc:message:wParam:lParam:cookie:
+[05A10258: 134]-->a ScintillaView
+[05A10254: 133]-->8395
+[05A10250: 132]-->273
+[05A1024C: 131]-->0
+[05A10248: 130]-->nil
+[05A10244: 129]-->[] @ 9 in BlockClosure>>ifCurtailed:
+[05A10240: 128]-->[] @ 64 in InputState>>wndProc:message:wParam:lParam:cookie:
+[05A1023C: 127]-->47218962
+[05A10238: 126]-->47218974
+[05A10234: 125]-->17
+[05A10230: 124]-->47218944
+[05A1022C: 123]-->0
+[05A10228: 122]-->BlockClosure>>ifCurtailed:
+[05A10224: 121]-->[] @ 11 in ProcessorScheduler>>callback:evaluate:
+[05A10220: 120]-->[] @ 0 in nil
+[05A1021C: 119]-->6323630
+[05A10218: 118]-->a ProcessorScheduler
+[05A10214: 117]-->47218940
+[05A10210: 116]-->47218958
+[05A1020C: 115]-->14
+[05A10208: 114]-->47218926
+[05A10204: 113]-->0
+[05A10200: 112]-->ProcessorScheduler>>callback:evaluate:
+[05A101FC: 111]-->[] @ 64 in InputState>>wndProc:message:wParam:lParam:cookie:
+[05A101F8: 110]-->6323630
+[05A101F4: 109]-->a ProcessorScheduler
+[05A101F0: 108]-->47218914
+[05A101EC: 107]-->47218936
+[05A101E8: 106]-->72
+[05A101E4: 105]-->47218896
+[05A101E0: 104]-->0
+[05A101DC: 103]-->InputState>>wndProc:message:wParam:lParam:cookie:
+[05A101D8: 102]-->a ScintillaView
+[05A101D4: 101]-->6323630
+[05A101D0: 100]-->0
+[05A101CC: 99]-->8395
+[05A101C8: 98]-->273
+[05A101C4: 97]-->1052120
+[05A101C0: 96]-->a InputState
+[05A101BC: 95]-->a MSG
+[05A101B8: 94]-->a UserLibrary
+[05A101B4: 93]-->47218894
+[05A101B0: 92]-->47218910
+[05A101AC: 91]-->27
+[05A101A8: 90]-->47218880
+[05A101A4: 89]-->0
+[05A101A0: 88]-->InputState>>pumpMessage:
+[05A1019C: 87]-->a MSG
+[05A10198: 86]-->a InputState
+[05A10194: 85]-->47218872
+[05A10190: 84]-->47218890
+[05A1018C: 83]-->17
+[05A10188: 82]-->47218858
+[05A10184: 81]-->0
+[05A10180: 80]-->InputState>>loopWhile:
+[05A1017C: 79]-->[] @ 8 in Toolbar>>updateSizePosted
+[05A10178: 78]-->true
+[05A10174: 77]-->a MSG
+[05A10170: 76]-->[] @ 9 in InputState>>mainLoop
+[05A1016C: 75]-->a InputState
+[05A10168: 74]-->47218858
+[05A10164: 73]-->47218868
+[05A10160: 72]-->14
+[05A1015C: 71]-->47218844
+[05A10158: 70]-->0
+[05A10154: 69]-->InputState>>mainLoop
+[05A10150: 68]-->a InputState
+[05A1014C: 67]-->47218844
+[05A10148: 66]-->47218854
+[05A10144: 65]-->13
+[05A10140: 64]-->47218830
+[05A1013C: 63]-->[] @ 10 in InputState>>forkMain
+[05A10138: 62]-->InputState>>forkMain
+[05A10134: 61]-->a InputState
+[05A10130: 60]-->47218830
+[05A1012C: 59]-->47218840
+[05A10128: 58]-->12
+[05A10124: 57]-->47218816
+[05A10120: 56]-->a Context for: nil frame: 5a1011d
+[05A1011C: 55]-->ExceptionHandlerAbstract>>markAndTry
+[05A10118: 54]-->a ExceptionHandler
+[05A10114: 53]-->47218814
+[05A10110: 52]-->47218826
+[05A1010C: 51]-->21
+[05A10108: 50]-->47218796
+[05A10104: 49]-->[] @ 17 in ExceptionHandlerAbstract>>try:
+[05A10100: 48]-->ExceptionHandlerAbstract>>try:
+[05A100FC: 47]-->a Process('Main' base 05A10000 [ACTIVE] in 103BCD70 class>>CrearButaca:BoolOcupada: sp=00000000 ip=0 list=10050010)
+[05A100F8: 46]-->a ExceptionHandler
+[05A100F4: 45]-->[] @ 9 in BlockClosure>>ifCurtailed:
+[05A100F0: 44]-->[] @ 17 in ExceptionHandlerAbstract>>try:
+[05A100EC: 43]-->47218794
+[05A100E8: 42]-->47218806
+[05A100E4: 41]-->17
+[05A100E0: 40]-->47218780
+[05A100DC: 39]-->0
+[05A100D8: 38]-->BlockClosure>>ifCurtailed:
+[05A100D4: 37]-->[] @ 39 in ExceptionHandlerAbstract>>try:
+[05A100D0: 36]-->[] @ 0 in nil
+[05A100CC: 35]-->47218776
+[05A100C8: 34]-->47218790
+[05A100C4: 33]-->2
+[05A100C0: 32]-->47218762
+[05A100BC: 31]-->0
+[05A100B8: 30]-->BlockClosure>>ensure:
+[05A100B4: 29]-->nil
+[05A100B0: 28]-->[] @ 39 in ExceptionHandlerAbstract>>try:
+[05A100AC: 27]-->[] @ 17 in ExceptionHandlerAbstract>>try:
+[05A100A8: 26]-->47218756
+[05A100A4: 25]-->47218772
+[05A100A0: 24]-->43
+[05A1009C: 23]-->47218742
+[05A10098: 22]-->a Context for: nil frame: 5a10095
+[05A10094: 21]-->ExceptionHandlerAbstract>>try:
+[05A10090: 20]-->a Process('Main' base 05A10000 [ACTIVE] in 103BCD70 class>>CrearButaca:BoolOcupada: sp=00000000 ip=0 list=10050010)
+[05A1008C: 19]-->nil
+[05A10088: 18]-->[] @ 10 in InputState>>forkMain
+[05A10084: 17]-->a ExceptionHandler
+[05A10080: 16]-->47218738
+[05A1007C: 15]-->47218752
+[05A10078: 14]-->6
+[05A10074: 13]-->47218724
+[05A10070: 12]-->0
+[05A1006C: 11]-->BlockClosure>>on:do:
+[05A10068: 10]-->[] @ 13 in BlockClosure>>newProcess
+[05A10064: 9]-->ProcessTermination
+[05A10060: 8]-->[] @ 10 in InputState>>forkMain
+[05A1005C: 7]-->47218724
+[05A10058: 6]-->47218734
+[05A10054: 5]-->16
+[05A10050: 4]-->0
+[05A1004C: 3]-->[] @ 9 in BlockClosure>>newProcess
+[05A10048: 2]-->BlockClosure>>newProcess
+[05A10044: 1]-->[] @ 10 in InputState>>forkMain
+<Bottom of stack>
+
+***** End of crash report *****
+
+21:30:38, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('BasicInspector class does not understand #butacas')
+
+BasicInspector class(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:31:17, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('BasicInspector class does not understand #inspect:')
+
+BasicInspector class(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:31:28, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('BasicInspector class does not understand #inspect:')
+
+BasicInspector class(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:33:06, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('BasicInspector class does not understand #inspect:')
+
+BasicInspector class(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:33:23, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('BasicInspector class does not understand #inspect:')
+
+BasicInspector class(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>evaluateIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:35:09, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('BasicInspector class does not understand #inspect:')
+
+BasicInspector class(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:35:52, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #+=')
+
+SmallInteger(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:36:35, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('BasicInspector class does not understand #inspect:')
+
+BasicInspector class(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:41:21, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('BasicInspector class does not understand #inspect:')
+
+BasicInspector class(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:44:01, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('BasicInspector class does not understand #inspect:')
+
+BasicInspector class(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in Toolbar(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:47:11, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('BasicInspector class does not understand #inspect:')
+
+BasicInspector class(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in Toolbar(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:48:49, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('FlipperInspector does not understand #it:')
+
+FlipperInspector(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in Toolbar(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:50:40, martes, 6 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Inspect')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in Toolbar(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+21:29:26, sábado, 10 de junio de 2023: Unhandled exception - a NotFoundError('Not found: nil')
+
+SystemDictionary(Object)>>errorNotFound:
+SystemDictionary(Dictionary)>>errorKeyNotFound:
+SystemDictionary(Dictionary)>>associationAt:
+RefactoringSmalltalkSystem(SmalltalkSystem)>>globalVariableNamed:
+RefactoringSmalltalkSystem(SmalltalkSystem)>>browseClassReferences:in:
+PackageBrowserShell>>browseClassReferencesIn:
+PackageBrowserShell>>browseLocalClassReferences
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+PackageBrowserShell(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ListView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
