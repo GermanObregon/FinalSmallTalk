@@ -964,3 +964,280 @@ Object subclass: #Prueba
 
 "22:22:50, sábado, 10 de junio de 2023: Image saved"!
 
+"22:27:59, sábado, 10 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+Object subclass: #Pelicula
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Pelicula guid: (GUID fromString: '{F6E6D3D9-600B-48B5-A22E-1722C0AE589C}')!
+Pelicula comment: ''!
+!Pelicula categoriesForClass!Kernel-Objects! !
+Object subclass: #Pelicula
+	instanceVariableNames: 'IdPelicula Nombre Duracion'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Pelicula methodsFor!
+InitPelicula: unId Nombre: unNombre Duracion: unaDuracion
+	IdPelicula := unId.
+	Nombre := unNombre.
+	Duracion := unaDuracion! !
+!Pelicula categoriesFor: #InitPelicula:Nombre:Duracion:!public! !
+
+!Pelicula class methodsFor!
+CrearPelicula: unId Nombre: unNombre Duracion: unaDuracion
+	^self new
+		InitPelicula: unId
+		Nombre: unNombre
+		Duracion: unaDuracion! !
+!Pelicula class categoriesFor: #CrearPelicula:Nombre:Duracion:!public! !
+
+Object subclass: #Butaca
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Butaca guid: (GUID fromString: '{052378F0-DBC2-4113-B093-B45810A353E3}')!
+Butaca comment: ''!
+!Butaca categoriesForClass!Kernel-Objects! !
+Object subclass: #Butaca
+	instanceVariableNames: 'IdButaca Ocupada'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Butaca methodsFor!
+InitButaca: unId Ocupada: unBool
+	IdButaca := unId.
+	Ocupada := unBool! !
+!Butaca categoriesFor: #InitButaca:Ocupada:!public! !
+
+!Butaca class methodsFor!
+CrearButaca: unId Ocupada: unBool
+^(self new)InitButaca: unId Ocupada: unBool.! !
+!Butaca class categoriesFor: #CrearButaca:Ocupada:!public! !
+
+Object subclass: #Sala
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Sala guid: (GUID fromString: '{24FC18FB-5427-4BFA-B416-3EC8D65523DE}')!
+Sala comment: ''!
+!Sala categoriesForClass!Kernel-Objects! !
+Object subclass: #Sala
+	instanceVariableNames: 'IdSala Pelicula Butacas CantButacas'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Sala methodsFor!
+CrearButacas: unaCantidad
+	| butacas butaca contador |
+	contador := 0.
+	butacas := OrderedCollection new.
+	[contador < unaCantidad] whileTrue: 
+			[butaca := Butaca CrearButaca: contador Ocupada: false.
+			butacas add: butaca.
+			contador := contador + 1].
+	^butacas! !
+!Sala categoriesFor: #CrearButacas:!public! !
+
+!Sala categoriesFor: #CrearButacas:!private! !
+
+!Sala methodsFor!
+InitSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	IdSala := unId.
+	Pelicula := unaPelicula.
+	CantButacas := unaCantidad.
+	Butacas := Sala CrearButacas: unaCantidad! !
+!Sala categoriesFor: #InitSala:Pelicula:CantButacas:!public! !
+
+!Sala class methodsFor!
+CrearSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	^self new
+		InitSala: unId
+		Pelicula: unaPelicula
+		CantButacas: unaCantidad! !
+!Sala class categoriesFor: #CrearSala:Pelicula:CantButacas:!public! !
+
+!Sala methodsFor!
+InitSala: unId Pelicula: unaPelicula CantButacas: unaCantidad
+	IdSala := unId.
+	Pelicula := unaPelicula.
+	CantButacas := unaCantidad.
+	Butacas := Sala CrearButacas: unaCantidad! !
+!Sala categoriesFor: #InitSala:Pelicula:CantButacas:!public! !
+
+!Sala categoriesFor: #CrearButacas:!public! !
+
+!Sala class methodsFor!
+CrearButacas: unaCantidad
+	| butacas butaca contador |
+	contador := 0.
+	butacas := OrderedCollection new.
+	[contador < unaCantidad] whileTrue: 
+			[butaca := Butaca CrearButaca: contador Ocupada: false.
+			butacas add: butaca.
+			contador := contador + 1].
+	^butacas! !
+!Sala class categoriesFor: #CrearButacas:!public! !
+
+Sala removeSelector: #CrearButacas: ifAbsent: []!
+
+!Sala class categoriesFor: #CrearButacas:!private! !
+
+!Sala class methodsFor!
+CrearButacas: unaCantidad
+	| butacas butaca contador |
+	contador := 0.
+	butacas := OrderedCollection new.
+	[contador < unaCantidad] whileTrue: 
+			[butaca := Butaca CrearButaca: contador Ocupada: false.
+			butacas add: butaca.
+			contador := contador + 1].
+	^butacas! !
+!Sala class categoriesFor: #CrearButacas:!private! !
+
+Object subclass: #Funcion
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Funcion guid: (GUID fromString: '{D07BA76B-7702-42B6-A50D-3BA6AC345AA8}')!
+Funcion comment: ''!
+!Funcion categoriesForClass!Kernel-Objects! !
+Object subclass: #Funcion
+	instanceVariableNames: 'IdFuncion Pelicula Sala DiayHorario'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+Object subclass: #Sala
+	instanceVariableNames: 'IdSala Butacas CantButacas'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Sala methodsFor!
+InitSala: unId CantButacas: unaCantidad
+	IdSala := unId.
+	CantButacas := unaCantidad.
+	Butacas := Sala CrearButacas: unaCantidad! !
+!Sala categoriesFor: #InitSala:CantButacas:!public! !
+
+Sala removeSelector: #InitSala:Pelicula:CantButacas: ifAbsent: []!
+
+!Sala class methodsFor!
+CrearSala: unId CantButacas: unaCantidad
+	^self new InitSala: unId CantButacas: unaCantidad! !
+!Sala class categoriesFor: #CrearSala:CantButacas:!public! !
+
+Sala class removeSelector: #CrearSala:Pelicula:CantButacas: ifAbsent: []!
+
+!Funcion methodsFor!
+InitFuncion:unId ! !
+!Funcion categoriesFor: #InitFuncion:!public! !
+
+!Funcion methodsFor!
+InitFuncion:unId Pelicula:unaPelicula Sala:unaSala DiaYHorario:unDiaYHorario
+IdFuncion:=unId.
+Pelicula:=unaPelicula.
+Sala:=unaSala.
+DiayHorario:=unDiaYHorario.! !
+!Funcion categoriesFor: #InitFuncion:Pelicula:Sala:DiaYHorario:!public! !
+
+Funcion removeSelector: #InitFuncion: ifAbsent: []!
+
+!Funcion class methodsFor!
+CrearFuncion:unId Pelicula:unaPelicula Sala:unaSala DiaYHorario:unDiaYHorario
+^(self new) InitFuncion:unId Pelicula:unaPelicula Sala:unaSala DiaYHorario:unDiaYHorario.! !
+!Funcion class categoriesFor: #CrearFuncion:Pelicula:Sala:DiaYHorario:!public! !
+
+!Funcion class methodsFor!
+CrearFuncion: unId Pelicula: unaPelicula Sala: unaSala DiaYHorario: unDiaYHorario
+	^self new
+		InitFuncion: unId
+		Pelicula: unaPelicula
+		Sala: unaSala
+		DiaYHorario: unDiaYHorario! !
+!Funcion class categoriesFor: #CrearFuncion:Pelicula:Sala:DiaYHorario:!public! !
+
+Object subclass: #Reserva
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Reserva guid: (GUID fromString: '{3E118286-2102-47F3-B02D-65BF405DE9F5}')!
+Reserva comment: ''!
+!Reserva categoriesForClass!Kernel-Objects! !
+Object subclass: #Reserva
+	instanceVariableNames: 'IdReserva Cliente Funcion Pago' 
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Reserva methodsFor!
+InitReserva: unId Cliente: unCliente Funcion: unaFuncion Pago: unBool
+	IdReserva := unId.
+	Cliente := unCliente.
+	Funcion := unaFuncion.
+	Pago := unBool! !
+!Reserva categoriesFor: #InitReserva:Cliente:Funcion:Pago:!public! !
+
+!Reserva class methodsFor!
+InitReserva: unId Cliente: unCliente Funcion: unaFuncion Pago: unBool
+	^self new
+		InitReserva: unId
+		Cliente: unCliente
+		Funcion: unaFuncion
+		Pago: unBool! !
+!Reserva class categoriesFor: #InitReserva:Cliente:Funcion:Pago:!public! !
+
+Object subclass: #Cine
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Cine guid: (GUID fromString: '{40F0386C-1671-416C-BFAF-ED220299CA39}')!
+Cine comment: ''!
+!Cine categoriesForClass!Kernel-Objects! !
+Object subclass: #Cine
+	instanceVariableNames: 'Clientes Peliculas Reservaciones Funciones'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Cine methodsFor!
+InitCine: clientes Peliculas: peliculas Reservaciones: reservaciones Funciones: funciones
+	Clientes := clientes.
+	Peliculas := peliculas.
+	Reservaciones := reservaciones.
+	Funciones := funciones! !
+!Cine categoriesFor: #InitCine:Peliculas:Reservaciones:Funciones:!public! !
+
+!Cine class methodsFor!
+CrearCine: clientes Peliculas: peliculas Reservaciones: reservaciones Funciones: funciones
+	^self new
+		InitCine: clientes
+		Peliculas: peliculas
+		Reservaciones: reservaciones
+		Funciones: funciones! !
+!Cine class categoriesFor: #CrearCine:Peliculas:Reservaciones:Funciones:!public! !
+
+!Cine class methodsFor!
+CrearCine: clientes Peliculas: peliculas Reservaciones: reservaciones Funciones: funciones
+	^self new
+		InitCine: clientes
+		Peliculas: peliculas
+		Reservaciones: reservaciones
+		Funciones: funciones! !
+!Cine class categoriesFor: #CrearCine:Peliculas:Reservaciones:Funciones:!public! !
+
+"23:05:36, sábado, 10 de junio de 2023: Image saved"!
+
+"23:05:47, sábado, 10 de junio de 2023: Image saved"!
+

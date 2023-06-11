@@ -1222,3 +1222,51 @@ Command>>value
 ShellView>>performCommand:
 ----------------------------------------------------------------------------------------------------
 
+22:46:33, sábado, 10 de junio de 2023: Unhandled exception - a NotFoundError('Not found: 3')
+
+ListView(Object)>>errorNotFound:
+[] in ListView(ListControlView)>>objectFromHandle:
+ListModel(SequenceableCollection)>>at:ifAbsent:
+ListView(ListControlView)>>objectFromHandle:ifAbsent:
+ListView(ListControlView)>>objectFromHandle:
+[] in ListView(ListControlView)>>selections
+[] in SequenceableCollection>>collect:
+Array(SequenceableCollection)>>uncheckedFrom:to:keysAndValuesDo:
+Array(SequenceableCollection)>>keysAndValuesDo:
+Array(SequenceableCollection)>>collect:
+ListView(ListControlView)>>selections
+ListPresenter(SelectableItemsPresenter)>>selections
+MethodBrowser(SelectableItemsPresenter)>>selections
+MethodBrowser>>queryCommand:
+DelegatingCommandPolicy(CommandPolicy)>>queryCommand:ofTarget:
+[] in DelegatingCommandPolicy(CommandPolicy)>>queryCommand:
+OrderedCollection>>do:
+DelegatingCommandPolicy(CommandPolicy)>>queryCommand:
+DelegatingCommandPolicy(CommandPolicy)>>query:
+ToolbarIconButton(ToolbarButton)>>validateUserInterface:
+----------------------------------------------------------------------------------------------------
+
+23:05:25, sábado, 10 de junio de 2023: Unhandled exception - a Win32Error('The parameter is incorrect. (16r57: The parameter is incorrect.)')
+
+KernelLibrary(ExternalLibrary)>>systemError
+FILETIME>>basicAsSYSTEMTIME
+FILETIME>>asSYSTEMTIME
+FILETIME>>displayOn:
+FILETIME(Object)>>displayString
+Package>>checkTimestamps
+Package>>savePAC
+Package>>saveSingleFilePackage
+Package>>save
+[] in PackageSelector>>savePackages:
+Array(ArrayedCollection)>>do:
+PackageSelector>>savePackages:
+PackageSelector>>savePackages
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+----------------------------------------------------------------------------------------------------
+
