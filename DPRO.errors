@@ -1078,3 +1078,147 @@ BlockClosure>>ifCurtailed:
 BlockClosure>>ensure:
 ----------------------------------------------------------------------------------------------------
 
+22:15:24, sábado, 10 de junio de 2023: Unhandled exception - a MessageNotUnderstood('UndefinedObject does not understand #newLongReadOnlyTransaction')
+
+Object>>doesNotUnderstand:
+StsManager>>getPackageEditionsFor:
+StsImportInformationModel class>>package:
+[] in StsManager>>importPackage
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+StsManager>>importPackage
+[] in SmalltalkToolShell>>importPackageFromFile
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Cursor>>showWhile:
+PackageBrowserShell(SmalltalkToolShell)>>importPackageFromFile
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+[] in ShellView>>performCommand:
+BlockClosure>>ifCurtailed:
+----------------------------------------------------------------------------------------------------
+
+22:15:50, sábado, 10 de junio de 2023: Unhandled exception - a MessageNotUnderstood('UndefinedObject does not understand #newLongReadOnlyTransaction')
+
+Object>>doesNotUnderstand:
+StsManager>>getPackageEditionsFor:
+StsImportInformationModel class>>package:
+[] in StsManager>>importPackage
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+StsManager>>importPackage
+[] in SmalltalkToolShell>>importPackageFromFile
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Cursor>>showWhile:
+PackageBrowserShell(SmalltalkToolShell)>>importPackageFromFile
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+[] in ShellView>>performCommand:
+BlockClosure>>ifCurtailed:
+----------------------------------------------------------------------------------------------------
+
+22:19:37, sábado, 10 de junio de 2023: Unhandled exception - a Win32Error('The parameter is incorrect. (16r57: The parameter is incorrect.)')
+
+KernelLibrary(ExternalLibrary)>>systemError
+FILETIME>>basicAsSYSTEMTIME
+FILETIME>>asSYSTEMTIME
+FILETIME>>displayOn:
+FILETIME(Object)>>displayString
+Package>>checkTimestamps
+Package>>savePAC
+Package>>saveSingleFilePackage
+Package>>save
+[] in PackageSelector>>savePackages:
+Array(ArrayedCollection)>>do:
+PackageSelector>>savePackages:
+PackageSelector>>savePackages
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+22:20:15, sábado, 10 de junio de 2023: Unhandled exception - a Win32Error('The parameter is incorrect. (16r57: The parameter is incorrect.)')
+
+KernelLibrary(ExternalLibrary)>>systemError
+FILETIME>>basicAsSYSTEMTIME
+FILETIME>>asSYSTEMTIME
+FILETIME>>displayOn:
+FILETIME(Object)>>displayString
+Package>>checkTimestamps
+Package>>savePAC
+Package>>saveSingleFilePackage
+Package>>save
+[] in PackageSelector>>savePackages:
+Array(ArrayedCollection)>>do:
+PackageSelector>>savePackages:
+PackageSelector>>savePackages
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+22:20:29, sábado, 10 de junio de 2023: Unhandled exception - a Win32Error('The parameter is incorrect. (16r57: The parameter is incorrect.)')
+
+KernelLibrary(ExternalLibrary)>>systemError
+FILETIME>>basicAsSYSTEMTIME
+FILETIME>>asSYSTEMTIME
+FILETIME>>displayOn:
+FILETIME(Object)>>displayString
+Package>>checkTimestamps
+Package>>savePAC
+Package>>saveSingleFilePackage
+Package>>save
+[] in PackageSelector>>savePackages:
+Array(ArrayedCollection)>>do:
+PackageSelector>>savePackages:
+PackageSelector>>savePackages
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+22:21:30, sábado, 10 de junio de 2023: Unhandled exception - a Win32Error('The parameter is incorrect. (16r57: The parameter is incorrect.)')
+
+KernelLibrary(ExternalLibrary)>>systemError
+FILETIME>>basicAsSYSTEMTIME
+FILETIME>>asSYSTEMTIME
+FILETIME>>displayOn:
+FILETIME(Object)>>displayString
+Package>>checkTimestamps
+Package>>savePAC
+Package>>saveSingleFilePackage
+Package>>save
+[] in PackageSelector>>savePackages:
+Array(ArrayedCollection)>>do:
+PackageSelector>>savePackages:
+PackageSelector>>savePackages
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+----------------------------------------------------------------------------------------------------
+

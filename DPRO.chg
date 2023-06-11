@@ -940,3 +940,27 @@ Object subclass: #Prueba
 	poolDictionaries: ''
 	classInstanceVariableNames: ''!
 
+"22:15:34, sábado, 10 de junio de 2023: Uninstalling package 'ProyectoFinal2'"!
+
+"22:17:07, sábado, 10 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+"22:18:34, sábado, 10 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+"22:20:23, sábado, 10 de junio de 2023: Uninstalling package 'ProyectoFinal2'"!
+
+Object subclass: #Prueba
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+Prueba guid: (GUID fromString: '{F2B0F28D-FBAE-461E-B4FA-75FC1A825796}')!
+Prueba comment: ''!
+!Prueba categoriesForClass!Kernel-Objects! !
+Object subclass: #Prueba
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+"22:22:50, sábado, 10 de junio de 2023: Image saved"!
+
