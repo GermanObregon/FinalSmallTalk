@@ -1241,3 +1241,6358 @@ CrearCine: clientes Peliculas: peliculas Reservaciones: reservaciones Funciones:
 
 "23:05:47, sábado, 10 de junio de 2023: Image saved"!
 
+"19:59:15, martes, 13 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+"21:29:41, domingo, 25 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+Object subclass: #MenuPrincipal
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+MenuPrincipal guid: (GUID fromString: '{F9FB6943-B58F-40AF-A5FE-0994400C65E7}')!
+MenuPrincipal comment: ''!
+!MenuPrincipal categoriesForClass!Kernel-Objects! !
+!MenuPrincipal class methodsFor!
+InitMenuPricipal
+^(self new)! !
+!MenuPrincipal class categoriesFor: #InitMenuPricipal!public! !
+
+!MenuPrincipal class methodsFor!
+CrearMenuPricipal
+	^self new! !
+!MenuPrincipal class categoriesFor: #CrearMenuPricipal!public! !
+
+MenuPrincipal class removeSelector: #InitMenuPricipal ifAbsent: []!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+!MenuPrincipal class methodsFor!
+CrearMenuPricipal
+	^self new InitMenuPrincipal! !
+!MenuPrincipal class categoriesFor: #CrearMenuPricipal!public! !
+
+|menu|
+menur := MenuPrincipal.!
+
+|menu|
+menu := MenuPrincipal.!
+
+"21:46:09, domingo, 25 de junio de 2023: Image saved"!
+
+|menu|
+menu := MenuPrincipal.!
+
+|menu|
+menu := MenuPrincipal CrearMenuPricipal.!
+
+|menu|
+menu := MenuPrincipal CrearMenuPricipal.!
+
+|menu|
+menu := MenuPrincipal CrearMenuPricipal.
+Transcript show:'Hola'!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+Transcript show: 'Hola'
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu := MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+Object subclass: #MenuPrincipal
+	instanceVariableNames: 'Peliculas Salas Cine Funciones'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!MenuPrincipal methodsFor!
+LoadData
+! !
+!MenuPrincipal categoriesFor: #LoadData!public! !
+
+!MenuPrincipal methodsFor!
+CrearListaPeliculas
+|pelicula1 pelicual2 pelicula3 peliculas|
+
+
+
+pelicula1:= Pelicula CrearPelicula: 1 Nombre: 'Rambo II' Duracion: 200.
+pelicual2:= Pelicula CrearPelicula: 2 Nombre: 'Stars War' Duracion: 120.
+pelicula3:= Pelicula CrearPelicula: 3 Nombre: 'Harry Potter' Duracion: 220.
+
+! !
+!MenuPrincipal categoriesFor: #CrearListaPeliculas!public! !
+
+!MenuPrincipal methodsFor!
+CrearListaPeliculas
+|pelicula1 pelicula2 pelicula3 peliculas|
+peliculas:= OrderedCollection new.
+pelicula1:= Pelicula CrearPelicula: 1 Nombre: 'Rambo II' Duracion: 200.
+peliculas add: pelicula1.
+pelicula2:= Pelicula CrearPelicula: 2 Nombre: 'Stars War' Duracion: 120.
+peliculas add: pelicula2.
+pelicula3:= Pelicula CrearPelicula: 3 Nombre: 'Harry Potter' Duracion: 220.
+peliculas add: pelicula3.
+^peliculas
+
+! !
+!MenuPrincipal categoriesFor: #CrearListaPeliculas!public! !
+
+!MenuPrincipal methodsFor!
+LoadData
+|peliculas|
+
+! !
+!MenuPrincipal categoriesFor: #LoadData!public! !
+
+!MenuPrincipal class methodsFor!
+CrearListaPeliculas
+|pelicula1 pelicula2 pelicula3 peliculas|
+peliculas:= OrderedCollection new.
+pelicula1:= Pelicula CrearPelicula: 1 Nombre: 'Rambo II' Duracion: 200.
+peliculas add: pelicula1.
+pelicula2:= Pelicula CrearPelicula: 2 Nombre: 'Stars War' Duracion: 120.
+peliculas add: pelicula2.
+pelicula3:= Pelicula CrearPelicula: 3 Nombre: 'Harry Potter' Duracion: 220.
+peliculas add: pelicula3.
+^peliculas! !
+!MenuPrincipal class categoriesFor: #CrearListaPeliculas!public! !
+
+!MenuPrincipal class categoriesFor: #CrearListaPeliculas!private! !
+
+!MenuPrincipal class methodsFor!
+CrearListaPeliculas
+|pelicula1 pelicula2 pelicula3 peliculas|
+peliculas:= OrderedCollection new.
+pelicula1:= Pelicula CrearPelicula: 1 Nombre: 'Rambo II' Duracion: 200.
+peliculas add: pelicula1.
+pelicula2:= Pelicula CrearPelicula: 2 Nombre: 'Stars War' Duracion: 120.
+peliculas add: pelicula2.
+pelicula3:= Pelicula CrearPelicula: 3 Nombre: 'Harry Potter' Duracion: 220.
+peliculas add: pelicula3.
+^peliculas! !
+!MenuPrincipal class categoriesFor: #CrearListaPeliculas!private! !
+
+MenuPrincipal removeSelector: #CrearListaPeliculas ifAbsent: []!
+
+!MenuPrincipal methodsFor!
+LoadData
+|peliculas|
+peliculas:= MenuPrincipal CrearListaPeliculas.
+
+
+! !
+!MenuPrincipal categoriesFor: #LoadData!public! !
+
+!MenuPrincipal methodsFor!
+LoadData
+|peliculas|
+peliculas:= MenuPrincipal CrearListaPeliculas.
+
+
+
+! !
+!MenuPrincipal categoriesFor: #LoadData!public! !
+
+!MenuPrincipal methodsFor!
+LoadData
+|peliculas Salas Funciones Cine|
+peliculas:= MenuPrincipal CrearListaPeliculas.
+
+
+
+
+! !
+!MenuPrincipal categoriesFor: #LoadData!public! !
+
+!MenuPrincipal class methodsFor!
+CrearListaSalas
+|sala1 sala2 salas|
+salas:= OrderedCollection new.
+sala1:= Sala CrearSala: 1 CantButacas: 15.
+salas add:sala1.
+sala2:=Sala CrearSala: 2 CantButacas: 15.
+salas add:sala2.
+^salas
+
+! !
+!MenuPrincipal class categoriesFor: #CrearListaSalas!public! !
+
+!MenuPrincipal class categoriesFor: #CrearListaSalas!private! !
+
+!MenuPrincipal methodsFor!
+LoadData
+|peliculas salas funciones cine|
+peliculas:= MenuPrincipal CrearListaPeliculas.
+salas:= MenuPrincipal CrearListaSalas.
+
+
+
+
+
+
+! !
+!MenuPrincipal categoriesFor: #LoadData!public! !
+
+!MenuPrincipal class methodsFor!
+CrearFucnciones: lstPeliculas Salas: lstSalas
+	| funcion1 funcion2 funcion3 funciones |
+	funciones := OrderedCollection new.
+	funcion1 := Funcion
+				CrearFuncion: 1
+				Pelicula: (lstPeliculas at: 1)
+				Sala: (lstSalas at: 1)
+				DiaYHorario: 'Jue16hs'.
+	funciones add: funcion1.
+	funcion2 := Funcion
+				CrearFuncion: 2
+				Pelicula: (lstPeliculas at: 2)
+				Sala: (lstSalas at: 2)
+				DiaYHorario: 'Vie14hs'.
+	funciones add: funcion2.
+	funcion3 := Funcion
+				CrearFuncion: 3
+				Pelicula: (lstPeliculas at: 3)
+				Sala: (lstSalas at: 2)
+				DiaYHorario: 'Mier20hs'.
+	funciones add: funcion3.
+	^funciones! !
+!MenuPrincipal class categoriesFor: #CrearFucnciones:Salas:!public! !
+
+!MenuPrincipal class categoriesFor: #CrearFucnciones:Salas:!private! !
+
+Object subclass: #Cine
+	instanceVariableNames: 'Clientes Peliculas Reservaciones Funciones Salas'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Cine methodsFor!
+InitCine: clientes Peliculas: peliculas Reservaciones: reservaciones Funciones: funciones Salas: salas
+	Clientes := clientes.
+	Peliculas := peliculas.
+	Reservaciones := reservaciones.
+	Funciones := funciones.
+	Salas := salas! !
+!Cine categoriesFor: #InitCine:Peliculas:Reservaciones:Funciones:Salas:!public! !
+
+Cine removeSelector: #InitCine:Peliculas:Reservaciones:Funciones: ifAbsent: []!
+
+!Cine class methodsFor!
+CrearCine: clientes Peliculas: peliculas Reservaciones: reservaciones Funciones: funciones Salas:salas
+	^self new
+		InitCine: clientes
+		Peliculas: peliculas
+		Reservaciones: reservaciones
+		Funciones: funciones
+		Salas:salas! !
+!Cine class categoriesFor: #CrearCine:Peliculas:Reservaciones:Funciones:Salas:!public! !
+
+Cine class removeSelector: #CrearCine:Peliculas:Reservaciones:Funciones: ifAbsent: []!
+
+!MenuPrincipal methodsFor!
+LoadData
+|peliculas salas funciones reservaciones cine clientes|
+reservaciones:= OrderedCollection new.
+peliculas:= MenuPrincipal CrearListaPeliculas.
+salas:= MenuPrincipal CrearListaSalas.
+funciones:= MenuPrincipal CrearFucnciones: peliculas Salas: salas.
+cine:= Cine CrearCine: clientes Peliculas: peliculas Reservaciones: reservaciones Funciones: funciones Salas: salas
+
+
+
+
+
+
+! !
+!MenuPrincipal categoriesFor: #LoadData!public! !
+
+!MenuPrincipal class methodsFor!
+CrearClientes
+|cliante1 cliente2 clientes|
+clientes:= OrderedCollection new.
+cliante1:= Cliente CrearCliente: 23232323 Nombre: 'Pepe' IdCliente: 1.
+clientes add:cliante1.
+cliente2:= Cliente CrearCliente: 12121212 Nombre: 'Juan' IdCliente: 2.
+clientes add:cliente2.
+^clientes.
+
+! !
+!MenuPrincipal class categoriesFor: #CrearClientes!public! !
+
+!MenuPrincipal class categoriesFor: #CrearClientes!private! !
+
+!MenuPrincipal class methodsFor!
+CrearClientes
+|cliante1 cliente2 clientes|
+clientes:= OrderedCollection new.
+cliante1:= Cliente CrearCliente: 23232323 Nombre: 'Pepe' IdCliente: 1.
+clientes add:cliante1.
+cliente2:= Cliente CrearCliente: 12121212 Nombre: 'Juan' IdCliente: 2.
+clientes add:cliente2.
+^clientes.
+
+! !
+!MenuPrincipal class categoriesFor: #CrearClientes!private! !
+
+!MenuPrincipal methodsFor!
+LoadData
+|peliculas salas funciones reservaciones cine clientes|
+reservaciones:= OrderedCollection new.
+peliculas:= MenuPrincipal CrearListaPeliculas.
+salas:= MenuPrincipal CrearListaSalas.
+funciones:= MenuPrincipal CrearFucnciones: peliculas Salas: salas.
+clientes:= MenuPrincipal CrearClientes.
+cine:= Cine CrearCine: clientes Peliculas: peliculas Reservaciones: reservaciones Funciones: funciones Salas: salas.
+^cine
+
+
+
+
+
+
+! !
+!MenuPrincipal categoriesFor: #LoadData!public! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine|
+cine:= MenuPrincipal LoadData.
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+!MenuPrincipal class methodsFor!
+LoadData
+|peliculas salas funciones reservaciones cine clientes|
+reservaciones:= OrderedCollection new.
+peliculas:= MenuPrincipal CrearListaPeliculas.
+salas:= MenuPrincipal CrearListaSalas.
+funciones:= MenuPrincipal CrearFucnciones: peliculas Salas: salas.
+clientes:= MenuPrincipal CrearClientes.
+cine:= Cine CrearCine: clientes Peliculas: peliculas Reservaciones: reservaciones Funciones: funciones Salas: salas.
+^cine! !
+!MenuPrincipal class categoriesFor: #LoadData!public! !
+
+!MenuPrincipal class categoriesFor: #LoadData!private! !
+
+!MenuPrincipal class methodsFor!
+LoadData
+|peliculas salas funciones reservaciones cine clientes|
+reservaciones:= OrderedCollection new.
+peliculas:= MenuPrincipal CrearListaPeliculas.
+salas:= MenuPrincipal CrearListaSalas.
+funciones:= MenuPrincipal CrearFucnciones: peliculas Salas: salas.
+clientes:= MenuPrincipal CrearClientes.
+cine:= Cine CrearCine: clientes Peliculas: peliculas Reservaciones: reservaciones Funciones: funciones Salas: salas.
+^cine! !
+!MenuPrincipal class categoriesFor: #LoadData!private! !
+
+MenuPrincipal removeSelector: #LoadData ifAbsent: []!
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.
+menu ispect.!
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine|
+cine:= MenuPrincipal LoadData.
+^cine
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect.!
+
+!Pelicula methodsFor!
+VerNombrePelicula
+^Nombre.! !
+!Pelicula categoriesFor: #VerNombrePelicula!public! !
+
+!Pelicula methodsFor!
+VerDuracionPelicula
+^Duracion.! !
+!Pelicula categoriesFor: #VerDuracionPelicula!public! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Peliculas';cr.
+[opcion = 2]whileFalse:[
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+"23:16:38, domingo, 25 de junio de 2023: Image saved"!
+
+"23:24:25, domingo, 25 de junio de 2023: Image saved"!
+"23:24:57, domingo, 25 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Peliculas';cr.
+[opcion = '2']whileFalse:[
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Peliculas';cr.
+[opcion = '2']whileFalse:[
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Peliculas';cr.
+[opcion = '2']whileFalse:[
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Salir';cr.
+[opcion = '2']whileFalse:[
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Salir';cr.
+[opcion = '2']whileFalse:[
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarPeliculas:peliculas
+Transcript clear.
+1 to:(peliculas size) do: [:i |  (Transcript show: (peliculas at: i) VerDuracionPelicula);cr ]
+! !
+!MenuPrincipal class categoriesFor: #ListarPeliculas:!public! !
+
+!MenuPrincipal class categoriesFor: #ListarPeliculas:!private! !
+
+!MenuPrincipal class methodsFor!
+ListarPeliculas:peliculas
+Transcript clear.
+1 to:(peliculas size) do: [:i |  (Transcript show: (peliculas at: i) VerDuracionPelicula);cr ]
+! !
+!MenuPrincipal class categoriesFor: #ListarPeliculas:!private! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Salir';cr.
+[opcion = '2']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  cine].
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+!Cine methodsFor!
+ObtenerPeliculas
+^Peliculas! !
+!Cine categoriesFor: #ObtenerPeliculas!public! !
+
+!Cine categoriesFor: #ObtenerPeliculas!private! !
+
+!Cine methodsFor!
+ObtenerPeliculas
+^Peliculas! !
+!Cine categoriesFor: #ObtenerPeliculas!private! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Salir';cr.
+[opcion = '2']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  cine ObtenerPeliculas ].
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Salir';cr.
+[opcion = '2']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarPeliculas:peliculas
+Transcript clear.
+1 to:(peliculas size) do: [:i |  (Transcript show: ((peliculas at: i) VerNombrePelicula ));cr ]
+! !
+!MenuPrincipal class categoriesFor: #ListarPeliculas:!private! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Salir';cr.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+[opcion = '2']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarPeliculas:peliculas
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Peliculas:';cr.
+1 to:(peliculas size) do: [:i |  (Transcript show: ((peliculas at: i) VerNombrePelicula ));cr ].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Salr:';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+]
+
+! !
+!MenuPrincipal class categoriesFor: #ListarPeliculas:!private! !
+
+!MenuPrincipal class methodsFor!
+ListarPeliculas:peliculas
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Peliculas:';cr.
+1 to:(peliculas size) do: [:i |  (Transcript show: ((peliculas at: i) VerNombrePelicula ));cr ].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+]
+
+! !
+!MenuPrincipal class categoriesFor: #ListarPeliculas:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarPeliculas:peliculas
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Peliculas:';cr.
+1 to:(peliculas size) do: [:i |  (Transcript show: ((peliculas at: i) VerNombrePelicula ));cr ].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+]
+
+! !
+!MenuPrincipal class categoriesFor: #ListarPeliculas:!private! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+[opcion = '2']whileFalse:[
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Salir';cr.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+[opcion = '2']whileFalse:[
+Transcript clear.
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Salir';cr.
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarPeliculas:peliculas
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Peliculas:';cr.
+1 to:(peliculas size) do: [:i |  (Transcript show: ((peliculas at: i) VerNombrePelicula ));cr ].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarPeliculas:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+Transcript clear.
+[opcion = '2']whileFalse:[
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Salir';cr.
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+Transcript clear.
+[opcion = '2']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Salir';cr.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+CrearListaPeliculas
+|pelicula1 pelicula2 pelicula3 peliculas|
+peliculas:= SortedCollection  sortBlock: [:x :y | x VerNombrePelicula  <= y VerNombrePelicula ].
+pelicula1:= Pelicula CrearPelicula: 1 Nombre: 'Rambo II' Duracion: 200.
+peliculas add: pelicula1.
+pelicula2:= Pelicula CrearPelicula: 2 Nombre: 'Stars War' Duracion: 120.
+peliculas add: pelicula2.
+pelicula3:= Pelicula CrearPelicula: 3 Nombre: 'Harry Potter' Duracion: 220.
+peliculas add: pelicula3.
+^peliculas! !
+!MenuPrincipal class categoriesFor: #CrearListaPeliculas!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!Funcion methodsFor!
+VerFuncionPelicula! !
+!Funcion categoriesFor: #VerFuncionPelicula!public! !
+
+!Funcion methodsFor!
+VerFuncionPelicula
+^Pelicula! !
+!Funcion categoriesFor: #VerFuncionPelicula!public! !
+
+!Funcion methodsFor!
+VerFucionSala
+^Sala! !
+!Funcion categoriesFor: #VerFucionSala!public! !
+
+!Funcion methodsFor!
+VerFucionDiaHorario
+^DiayHorario.! !
+!Funcion categoriesFor: #VerFucionDiaHorario!public! !
+
+"00:44:59, lunes, 26 de junio de 2023: Image saved"!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!public! !
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:fuciones
+|opcion funcion|
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(fuciones size) do: [:i |  (Transcript show: '<1> <2> <3>' expandMacrosWith: ((fuciones i) VerFuncionPelicula ) with: ((fuciones i) VerFucionSala ) with: ((fuciones i) VerFucionDiaHorario )  ;cr) ].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!public! !
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:fuciones
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(fuciones size) do: [:i |  (Transcript show: ('<1> <2> <3>' expandMacrosWith: ((fuciones at:i) VerFuncionPelicula ) with: ((fuciones at:i) VerFucionSala ) with: ((fuciones at:i) VerFucionDiaHorario));cr) ].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!public! !
+
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:fuciones
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(fuciones size) do: [:i |  (Transcript show: ('<1> <2> <3>' expandMacrosWith: ((fuciones at:i) VerFuncionPelicula ) with: ((fuciones at:i) VerFucionSala ) with: ((fuciones at:i) VerFucionDiaHorario));cr) ].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+Transcript clear.
+[opcion = '3']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Fuciones';cr.
+Transcript show:'3 - Salir';cr.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+Transcript clear.
+[opcion = '3']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+(opcion = '2')ifTrue: [MenuPrincipal  ListarFuciones: (cine ObtenerPeliculas) ].
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Fuciones';cr.
+Transcript show:'3 - Salir';cr.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+!Cine methodsFor!
+ObtenerFuciones
+^Funciones! !
+!Cine categoriesFor: #ObtenerFuciones!public! !
+
+!Cine categoriesFor: #ObtenerFuciones!private! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+Transcript clear.
+[opcion = '3']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+(opcion = '2')ifTrue: [MenuPrincipal  ListarFuciones: (cine ObtenerFuciones ) ].
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Fuciones';cr.
+Transcript show:'3 - Salir';cr.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:fuciones
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(fuciones size) do: [:i |  (Transcript show: ((fuciones  at: i) VerFuncionPelicula );cr) ].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:fuciones
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(fuciones size) do: [:i |  Transcript show: ((fuciones  at: i) VerFuncionPelicula );cr].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(funciones size) do: [:i |  Transcript show: (((funciones at:i) VerFuncionPelicula)VerNombrePelicula );cr].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(funciones size) do: [:i |  (Transcript show: ('<1>' expandMacrosWith: (((funciones at:i)VerNombrePelicula)VerNombrePelicula));cr).].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(funciones size) do: [:i |  (Transcript show: ('<1>' expandMacrosWith: (((funciones at:i)VerFuncionPelicula )VerNombrePelicula));cr).].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(funciones size) do: [:i |  (Transcript show: ((((funciones at:i)VerFuncionPelicula )VerNombrePelicula));cr).].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion|
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(funciones size) do: [:i |  (
+Transcript show:((((funciones at:i)VerFuncionPelicula )VerNombrePelicula));cr).].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+"01:44:41, lunes, 26 de junio de 2023: Image saved"!
+
+"03:07:14, lunes, 26 de junio de 2023: Image saved"!
+
+"19:58:05, lunes, 26 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+a:='Hola'.
+b:='como'.
+c:='estas'.
+
+Transcript show:('{a} {b} {c}';cr).!
+
+|menu a b c|
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='Hola'.
+b:='como'.
+c:='estas'.
+
+Transcript show:('{a} {b} {c}';cr).!
+
+| a b c|
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='Hola'.
+b:='como'.
+c:='estas'.
+
+Transcript show:('{a} {b} {c}';cr).!
+
+| a b c|
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='Hola'.
+b:='como'.
+c:='estas'.
+
+Transcript show:(a;cr).!
+
+| a |
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='Hola'
+
+
+Transcript show:(a;cr).
+!
+
+| a |
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='Hola'
+
+
+Transcript show:a;cr.!
+
+| a |
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='Hola'
+
+
+Transcript show:'hola';cr.!
+
+Transcript show:'hola';cr.!
+
+| a |
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='hola'.
+
+
+Transcript show:'hola';cr.!
+
+| a |
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='hola'.
+
+
+Transcript show:a;cr.!
+
+| a |
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='hola'.
+
+
+Transcript show:'{a}';cr.!
+
+| a |
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='hola'.
+
+
+Transcript showLine:'{a}';cr.!
+
+| a |
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='hola'.
+
+
+Transcript show:'{a}';cr.!
+
+| a |
+"menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect."
+
+a:='hola'.
+
+
+Transcript show:'primero ', a  ;cr.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+Transcript show: 'idFuncion     ', 'Pelicula     ','Dia y Hora    ';cr.
+1 to:(funciones size) do: [:i |  
+|nombrePeliculaFuncion diaHorarioFuncion|
+nombrePeliculaFuncion := (((funciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((funciones at:i)VerFucionDiaHorario).
+
+"Transcript show:((((funciones at:i)VerFuncionPelicula )VerNombrePelicula));cr)."
+].
+
+
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+Transcript show: 'idFuncion     ', 'Pelicula     ','Dia y Hora    ';cr.
+1 to:(funciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= i asString.
+nombrePeliculaFuncion := (((funciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((funciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+
+].
+
+
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+Transcript show: 'Funcion     ', 'Pelicula     ','Dia y Hora    ';cr.
+1 to:(funciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= i asString.
+nombrePeliculaFuncion := (((funciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((funciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+
+].
+
+
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+Transcript show: 'Funcion     ', 'Pelicula     ','Dia y Hora    ';cr.
+1 to:(funciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= i .
+nombrePeliculaFuncion := (((funciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((funciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+
+].
+
+
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+Transcript show: 'Funcion     ', 'Pelicula     ','Dia y Hora    ';cr.
+1 to:(funciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+"ordenFuncion:= i ."
+nombrePeliculaFuncion := (((funciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((funciones at:i)VerFucionDiaHorario).
+Transcript show: "ordenFuncion," '   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+
+].
+
+
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(funciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+"ordenFuncion:= i ."
+nombrePeliculaFuncion := (((funciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((funciones at:i)VerFucionDiaHorario).
+Transcript show: "ordenFuncion," '   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+
+].
+
+
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+!Funcion methodsFor!
+VerIdFuncion
+^IdFuncion! !
+!Funcion categoriesFor: #VerIdFuncion!public! !
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(funciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((funciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((funciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((funciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(funciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((funciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((funciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((funciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion asString ,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect.!
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect.!
+
+!MenuPrincipal class methodsFor!
+CrearFucnciones: lstPeliculas Salas: lstSalas
+	| funcion1 funcion2 funcion3 funciones |
+	funciones := OrderedCollection new.
+	funcion1 := Funcion
+				CrearFuncion: '1'
+				Pelicula: (lstPeliculas at: 1)
+				Sala: (lstSalas at: 1)
+				DiaYHorario: 'Jue16hs'.
+	funciones add: funcion1.
+	funcion2 := Funcion
+				CrearFuncion: '2'
+				Pelicula: (lstPeliculas at: 2)
+				Sala: (lstSalas at: 2)
+				DiaYHorario: 'Vie14hs'.
+	funciones add: funcion2.
+	funcion3 := Funcion
+				CrearFuncion: '3'
+				Pelicula: (lstPeliculas at: 3)
+				Sala: (lstSalas at: 2)
+				DiaYHorario: 'Mier20hs'.
+	funciones add: funcion3.
+	^funciones! !
+!MenuPrincipal class categoriesFor: #CrearFucnciones:Salas:!private! !
+
+!MenuPrincipal class methodsFor!
+ListarFuciones:funciones
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(funciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((funciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((funciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((funciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+
+! !
+!MenuPrincipal class categoriesFor: #ListarFuciones:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.
+menu inspect.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+Transcript clear.
+[opcion = '3']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+(opcion = '2')ifTrue: [MenuPrincipal  ListarFuciones: (cine ObtenerFuciones ) ].
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Fuciones';cr.
+Transcript show:'3 - Salir';cr.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:lstFuciones LstCliente:lstCliente
+|funcion cliente idReserva pago|
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:LstCliente:!public! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:lstFuciones LstCliente:lstCliente LstReservas:lstReservas
+|funcion cliente idReserva pago opcionFuncion|
+Transcript clear.
+1 to:(lstFuciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFuciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFuciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFuciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFuciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:LstCliente:LstReservas:!public! !
+
+!Cliente methodsFor!
+VerNombreCliente
+^Nombre! !
+!Cliente categoriesFor: #VerNombreCliente!public! !
+
+!Cliente methodsFor!
+VerIdCliente
+^IdCliente! !
+!Cliente categoriesFor: #VerIdCliente!public! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:lstFuciones LstCliente:lstCliente LstReservas:lstReservas
+|funcion cliente idReserva pago opcionFuncion|
+Transcript clear.
+Transcript show: 'Selecione un Cliente';cr.
+1 to:(lstCliente size) do: [:i |  
+|idCliente nombreCliente|
+idCliente:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idCliente,'   ' , nombreCliente;cr.
+].
+
+1 to:(lstFuciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFuciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFuciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFuciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFuciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+Transcript clear.
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:LstCliente:LstReservas:!public! !
+
+!MenuPrincipal class methodsFor!
+CrearClientes
+|cliante1 cliente2 clientes|
+clientes:= OrderedCollection new.
+cliante1:= Cliente CrearCliente: 23232323 Nombre: 'Pepe' IdCliente: '1'.
+clientes add:cliante1.
+cliente2:= Cliente CrearCliente: 12121212 Nombre: 'Juan' IdCliente: '2'.
+clientes add:cliente2.
+^clientes.
+
+! !
+!MenuPrincipal class categoriesFor: #CrearClientes!private! !
+
+!MenuPrincipal class methodsFor!
+CrearClientes
+|cliante1 cliente2 clientes|
+clientes:= OrderedCollection new.
+cliante1:= Cliente CrearCliente: 23232323 Nombre: 'Pepe' IdCliente: '1'.
+clientes add:cliante1.
+cliente2:= Cliente CrearCliente: 12121212 Nombre: 'Juan' IdCliente: '2'.
+clientes add:cliente2.
+^clientes.
+
+! !
+!MenuPrincipal class categoriesFor: #CrearClientes!private! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:lstFuciones LstCliente:lstCliente LstReservas:lstReservas
+|funcion cliente idReserva pago opcionFuncion opcionCliente|
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idCliente nombreCliente|
+idCliente:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idCliente,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFuciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFuciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFuciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFuciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFuciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+Transcript clear.
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:LstCliente:LstReservas:!public! !
+
+!Sala methodsFor!
+VerSalaButacas
+^Butacas! !
+!Sala categoriesFor: #VerSalaButacas!public! !
+
+!Sala methodsFor!
+VerSalaCantButacas
+^CantButacas! !
+!Sala categoriesFor: #VerSalaCantButacas!public! !
+
+!Sala methodsFor!
+OcuparSalaButaca
+CantButacas:=CantButacas - 1.! !
+!Sala categoriesFor: #OcuparSalaButaca!public! !
+
+!Sala methodsFor!
+OcuparSalaButaca
+CantButacas:= CantButacas - 1.! !
+!Sala categoriesFor: #OcuparSalaButaca!public! !
+
+!Butaca methodsFor!
+OcuparButaca
+Ocupada:=true! !
+!Butaca categoriesFor: #OcuparButaca!public! !
+
+!Butaca methodsFor!
+DesocuparButaca
+Ocupada:=false.! !
+!Butaca categoriesFor: #DesocuparButaca!public! !
+
+Object subclass: #Reserva
+	instanceVariableNames: 'IdReserva Cliente Funcion Butaca Pago'
+	classVariableNames: ''
+	poolDictionaries: ''
+	classInstanceVariableNames: ''!
+
+!Reserva methodsFor!
+InitReserva: unId Cliente: unCliente Funcion: unaFuncion Butaca:unaButaca Pago: unBool
+	IdReserva := unId.
+	Cliente := unCliente.
+	Funcion := unaFuncion.
+	Pago := unBool.
+	Butaca:=unaButaca.! !
+!Reserva categoriesFor: #InitReserva:Cliente:Funcion:Butaca:Pago:!public! !
+
+Reserva removeSelector: #InitReserva:Cliente:Funcion:Pago: ifAbsent: []!
+
+!Reserva class methodsFor!
+InitReserva: unId Cliente: unCliente Funcion: unaFuncion Butaca:unaButaca Pago: unBool
+	^self new
+		InitReserva: unId
+		Cliente: unCliente
+		Funcion: unaFuncion
+		Pago: unBool
+		"Butaca:= unaButaca."! !
+!Reserva class categoriesFor: #InitReserva:Cliente:Funcion:Butaca:Pago:!public! !
+
+!Reserva class methodsFor!
+CrearReserva: unId Cliente: unCliente Funcion: unaFuncion Butaca:unaButaca Pago: unBool
+	^(self new) InitReserva: unId Cliente: unCliente Funcion: unaFuncion Butaca: unaButaca Pago: unBool
+		! !
+!Reserva class categoriesFor: #CrearReserva:Cliente:Funcion:Butaca:Pago:!public! !
+
+Reserva class removeSelector: #InitReserva:Cliente:Funcion:Butaca:Pago: ifAbsent: []!
+
+Reserva class removeSelector: #InitReserva:Cliente:Funcion:Pago: ifAbsent: []!
+
+!Reserva class methodsFor!
+CrearReserva: unId Cliente: unCliente Funcion: unaFuncion Butaca: unaButaca Pago: unBool
+	^self new
+		InitReserva: unId
+		Cliente: unCliente
+		Funcion: unaFuncion
+		Butaca: unaButaca
+		Pago: unBool! !
+!Reserva class categoriesFor: #CrearReserva:Cliente:Funcion:Butaca:Pago:!public! !
+
+!Reserva class methodsFor!
+CrearReserva: unId Cliente: unCliente Funcion: unaFuncion Butaca: unaButaca Pago: unBool
+	^self new
+		InitReserva: unId
+		Cliente: unCliente
+		Funcion: unaFuncion
+		Butaca: unaButaca
+		Pago: unBool! !
+!Reserva class categoriesFor: #CrearReserva:Cliente:Funcion:Butaca:Pago:!public! !
+
+!Butaca methodsFor!
+EstadoButaca
+^Ocupada! !
+!Butaca categoriesFor: #EstadoButaca!public! !
+
+!Butaca methodsFor!
+EstadoButaca
+^Ocupada! !
+!Butaca categoriesFor: #EstadoButaca!public! !
+
+!Butaca methodsFor!
+VerIdButaca
+^IdButaca! !
+!Butaca categoriesFor: #VerIdButaca!public! !
+
+!Cine methodsFor!
+ObtenerCliente
+^Clientes! !
+!Cine categoriesFor: #ObtenerCliente!public! !
+
+!Cine categoriesFor: #ObtenerFuciones!public! !
+
+!Cine categoriesFor: #ObtenerPeliculas!public! !
+
+!Cine methodsFor!
+ObtenerPeliculas
+^Peliculas! !
+!Cine categoriesFor: #ObtenerPeliculas!public! !
+
+!Cine methodsFor!
+ObtenerReservaciones
+^Reservaciones! !
+!Cine categoriesFor: #ObtenerReservaciones!public! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|funcion lstCliente lstFunciones cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idCliente nombreCliente|
+idCliente:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idCliente,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+Transcript clear.
+sala:=funcion VerFucionSala.
+butacas:= sala VerSalaButacas.
+Transcript show: 'Butacas Disponibles:';cr.
+butacas:=butacas reject:[:but| but EstadoButaca = true ].
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+Transcript clear.
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca.
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!public! !
+
+!Cine methodsFor!
+ObtenerSalas
+^Salas! !
+!Cine categoriesFor: #ObtenerSalas!public! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idCliente nombreCliente|
+idCliente:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idCliente,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+Transcript clear.
+sala:=funcion VerFucionSala.
+butacas:= sala VerSalaButacas.
+Transcript show: 'Butacas Disponibles:';cr.
+butacas:=butacas reject:[:but| but EstadoButaca = true ].
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!public! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+(opcion = 'No')whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idCliente nombreCliente|
+idCliente:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idCliente,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+Transcript clear.
+sala:=funcion VerFucionSala.
+butacas:= sala VerSalaButacas.
+Transcript show: 'Butacas Disponibles:';cr.
+butacas:=butacas reject:[:but| but EstadoButaca = true ].
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!public! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+Transcript clear.
+sala:=funcion VerFucionSala.
+butacas:= sala VerSalaButacas.
+Transcript show: 'Butacas Disponibles:';cr.
+butacas:=butacas reject:[:but| but EstadoButaca = true ].
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!public! !
+
+MenuPrincipal class removeSelector: #AgregarReserva:LstCliente: ifAbsent: []!
+
+MenuPrincipal class removeSelector: #AgregarReserva:LstCliente:LstReservas: ifAbsent: []!
+
+"23:13:26, lunes, 26 de junio de 2023: Image saved"!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+Transcript clear.
+[opcion = '4']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+(opcion = '2')ifTrue: [MenuPrincipal  ListarFuciones: (cine ObtenerFuciones ) ].
+cine:=(opcion = '3')ifTrue: [MenuPrincipal  AgregarReserva: cine ].
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Fuciones';cr.
+Transcript show:'3 - Hacer una Reserva';cr.
+Transcript show:'4 - Salir';cr.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+!MenuPrincipal class methodsFor!
+ListarReservas:lstReservas
+! !
+!MenuPrincipal class categoriesFor: #ListarReservas:!public! !
+
+!Reserva methodsFor!
+VerCliente
+^Cliente! !
+!Reserva categoriesFor: #VerCliente!public! !
+
+!Reserva methodsFor!
+VerFuncion
+^Funcion! !
+!Reserva categoriesFor: #VerFuncion!public! !
+
+!Reserva methodsFor!
+VerButacaReservacion
+^Butaca
+! !
+!Reserva categoriesFor: #VerButacaReservacion!public! !
+
+!Reserva methodsFor!
+VerClienteReserva
+^Cliente! !
+!Reserva categoriesFor: #VerClienteReserva!public! !
+
+!Reserva methodsFor!
+VerFuncionReserva
+^Funcion! !
+!Reserva categoriesFor: #VerFuncionReserva!public! !
+
+Reserva removeSelector: #VerFuncion ifAbsent: []!
+
+Reserva removeSelector: #VerCliente ifAbsent: []!
+
+!Reserva methodsFor!
+VerButacaReserva
+^Butaca
+! !
+!Reserva categoriesFor: #VerButacaReserva!public! !
+
+Reserva removeSelector: #VerButacaReservacion ifAbsent: []!
+
+!Reserva methodsFor!
+VerPagoReserva
+^Pago! !
+!Reserva categoriesFor: #VerPagoReserva!public! !
+
+!Reserva methodsFor!
+VerIdReserva
+^IdReserva! !
+!Reserva categoriesFor: #VerIdReserva!public! !
+
+!Sala methodsFor!
+VerIdSala
+^IdSala! !
+!Sala categoriesFor: #VerIdSala!public! !
+
+!MenuPrincipal class methodsFor!
+ListarReservas:lstReservas
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(lstReservas size) do: [:i |  
+|idReserva nombreCliente horarioFuncion peliculaFuncion idSala|
+idReserva:= ((lstReservas at:i)VerIdReserva ).
+nombreCliente := (((lstReservas at:i)VerClienteReserva )VerNombreCliente ).
+horarioFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFucionDiaHorario.
+peliculaFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFuncionPelicula.
+idSala:=((lstReservas at:i)VerFucionSala ) VerIdSala .
+
+Transcript show: idReserva,'   ' , nombreCliente,'   '  , horarioFuncion,'   ',peliculaFuncion,'   ',idSala;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+! !
+!MenuPrincipal class categoriesFor: #ListarReservas:!public! !
+
+!MenuPrincipal class categoriesFor: #ListarReservas:!private! !
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+Transcript clear.
+[opcion = '5']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+(opcion = '2')ifTrue: [MenuPrincipal  ListarFuciones: (cine ObtenerFuciones ) ].
+cine:=(opcion = '3')ifTrue: [MenuPrincipal  AgregarReserva: cine ].
+(opcion = '4')ifTrue: [MenuPrincipal  ListarReservas: (cine ObtenerReservaciones ) ].
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Fuciones';cr.
+Transcript show:'3 - Hacer una Reserva';cr.
+Transcript show:'4 - Ver Reservas';cr.
+Transcript show:'5 - Salir';cr.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal methodsFor!
+InitMenuPrincipal
+|cine opcion|
+cine:= MenuPrincipal LoadData.
+opcion:='0'.
+Transcript clear.
+[opcion = '5']whileFalse:[
+(opcion = '1')ifTrue: [MenuPrincipal  ListarPeliculas:  (cine ObtenerPeliculas) ].
+(opcion = '2')ifTrue: [MenuPrincipal  ListarFuciones: (cine ObtenerFuciones ) ].
+(opcion = '3')ifTrue: [cine:= MenuPrincipal  AgregarReserva: cine ].
+(opcion = '4')ifTrue: [MenuPrincipal  ListarReservas: (cine ObtenerReservaciones ) ].
+Transcript show:'1 - Ver Lista Peliculas';cr.
+Transcript show:'2 - Ver Lista Fuciones';cr.
+Transcript show:'3 - Hacer una Reserva';cr.
+Transcript show:'4 - Ver Reservas';cr.
+Transcript show:'5 - Salir';cr.
+opcion:= Prompter prompt: 'Salecione una Opcion'.
+Transcript clear.
+]
+
+! !
+!MenuPrincipal categoriesFor: #InitMenuPrincipal!public! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+CrearListaPeliculas
+|pelicula1 pelicula2 pelicula3 peliculas|
+peliculas:= SortedCollection  sortBlock: [:x :y | x VerNombrePelicula  <= y VerNombrePelicula ].
+pelicula1:= Pelicula CrearPelicula: '1' Nombre: 'Rambo II' Duracion: 200.
+peliculas add: pelicula1.
+pelicula2:= Pelicula CrearPelicula: '2' Nombre: 'Stars War' Duracion: 120.
+peliculas add: pelicula2.
+pelicula3:= Pelicula CrearPelicula: '3' Nombre: 'Harry Potter' Duracion: 220.
+peliculas add: pelicula3.
+^peliculas! !
+!MenuPrincipal class categoriesFor: #CrearListaPeliculas!private! !
+
+!MenuPrincipal class methodsFor!
+CrearListaSalas
+|sala1 sala2 salas|
+salas:= OrderedCollection new.
+sala1:= Sala CrearSala: '1' CantButacas: 15.
+salas add:sala1.
+sala2:=Sala CrearSala: '2' CantButacas: 15.
+salas add:sala2.
+^salas
+
+! !
+!MenuPrincipal class categoriesFor: #CrearListaSalas!private! !
+
+!Sala class methodsFor!
+CrearButacas: unaCantidad
+	| butacas butaca contador |
+	contador := 0.
+	butacas := OrderedCollection new.
+	[contador < unaCantidad] whileTrue: 
+			[butaca := Butaca CrearButaca: (contador asString ) Ocupada: false.
+			butacas add: butaca.
+			contador := contador + 1].
+	^butacas! !
+!Sala class categoriesFor: #CrearButacas:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+CrearListaSalas
+|sala1 sala2 salas|
+salas:= OrderedCollection new.
+sala1:= Sala CrearSala: '1' CantButacas: 15.
+salas add:sala1.
+sala2:=Sala CrearSala: '2' CantButacas: 15.
+salas add:sala2.
+^salas
+
+! !
+!MenuPrincipal class categoriesFor: #CrearListaSalas!private! !
+
+!Sala class methodsFor!
+CrearButacas: unaCantidad
+	| butacas butaca contador |
+	contador := 0.
+	butacas := OrderedCollection new.
+	[contador < unaCantidad] whileTrue: 
+			[butaca := Butaca CrearButaca: contador Ocupada: false.
+			butacas add: butaca.
+			contador := contador + 1].
+	^butacas! !
+!Sala class categoriesFor: #CrearButacas:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+Transcript show: funcion VerIdFuncion;cr.
+
+Transcript clear.
+sala:=funcion VerFucionSala.
+butacas:= sala VerSalaButacas.
+Transcript show: 'Butacas Disponibles:';cr.
+butacas:=butacas reject:[:but| but EstadoButaca = true ].
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+butacas:= sala VerSalaButacas.
+Transcript show: 'Butacas Disponibles:';cr.
+butacas:=butacas reject:[:but| but EstadoButaca = true ].
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= sala VerSalaButacas.
+Transcript show: 'Butacas Disponibles:';cr.
+butacas:=butacas reject:[:but| but EstadoButaca = true ].
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: (idButaca asString),'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: (idButaca asString),'   ' , (ocupada asString );cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'   ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,'  algo ' , ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ).
+Transcript show: idButaca,ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ) asString.
+Transcript show: idButaca,ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+| menu|
+"menu:= MenuPrincipal CrearMenuPricipal."
+menu:=true.
+Transcript show: menu asString;cr.!
+
+| menu menuString|
+"menu:= MenuPrincipal CrearMenuPricipal."
+menu:=true.
+menuString:= menu asString.
+Transcript show: menuString;cr.!
+
+| menu menuString|
+"menu:= MenuPrincipal CrearMenuPricipal."
+menu:=true.
+menuString:= menu asStringObject .
+Transcript show: menuString;cr.!
+
+| menu menuString|
+"menu:= MenuPrincipal CrearMenuPricipal."
+menu:=true.
+menuString:= (menu asString) .
+Transcript show: menuString;cr.!
+
+| menu menuString|
+"menu:= MenuPrincipal CrearMenuPricipal."
+menu:=true.
+menuString:= menu ifTrue: ['true'] ifFalse:['false'].
+Transcript show: menuString;cr.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['true'] ifFalse:['false'].
+Transcript show: idButaca,'   ',ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['true'] ifFalse:['false'].
+ocupada inspect.
+Transcript show: idButaca,'   ',ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['true'] ifFalse:['false'].
+ocupada inspect.
+Transcript show: idButaca,ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+ocupada inspect.
+Transcript show: idButaca,ocupada;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+ocupada inspect.
+Transcript show: idButaca;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+"butacas:=butacas reject:[:but| but EstadoButaca = true ]."
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ) asString.
+idButaca inspect.
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+ocupada inspect.
+Transcript show: idButaca;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+| menu menuString|
+"menu:= MenuPrincipal CrearMenuPricipal."
+"menu:=true.
+menuString:= menu ifTrue: ['true'] ifFalse:['false'].
+Transcript show: menuString;cr."
+menu:=2.
+menuString:=menu asString.
+Transcript show: menuString.!
+
+| menu menuString|
+"menu:= MenuPrincipal CrearMenuPricipal."
+"menu:=true.
+menuString:= menu ifTrue: ['true'] ifFalse:['false'].
+Transcript show: menuString;cr."
+menu:='2'.
+menuString:=menu asString.
+Transcript show: menuString.!
+
+| menu menuString|
+"menu:= MenuPrincipal CrearMenuPricipal."
+"menu:=true.
+menuString:= menu ifTrue: ['true'] ifFalse:['false'].
+Transcript show: menuString;cr."
+menu:=2.
+menuString:=menu prinString.
+Transcript show: menuString.!
+
+| menu menuString|
+"menu:= MenuPrincipal CrearMenuPricipal."
+"menu:=true.
+menuString:= menu ifTrue: ['true'] ifFalse:['false'].
+Transcript show: menuString;cr."
+menu:=2.
+menuString:=menu printString.
+Transcript show: menuString.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)"reject:[:but| but EstadoButaca = true ]".
+butacas inspect.
+Transcript show: 'Butacas Disponibles:';cr.
+butacas:=butacas reject:[:but| but EstadoButaca = true ].
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ) printString.
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ) printString.
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = but VerIdButaca )ifTrue: [ but OcuparButaca. butaca := but. ]
+].
+].
+].
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ) printString.
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = (but VerIdButaca) printString )ifTrue: [ but OcuparButaca. butaca := but. ]
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ) printString.
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = ((but VerIdButaca) printString) )ifTrue: [ but OcuparButaca. butaca := but. ]
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ) printString.
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = ((but VerIdButaca) printString) )ifTrue: [ but OcuparButaca. butaca := but. ]
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ) printString.
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: ((((lstFunciones  at:i) VerFucionSala)VerSalaButacas) size) do: [:but | 
+(opcionButaca = ((but VerIdButaca) printString) )ifTrue: [ but OcuparButaca. butaca := but. ]
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ) printString.
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: (lButacas size) do: [:but | 
+(opcionButaca = ((but VerIdButaca) printString) )ifTrue: [ but OcuparButaca. butaca := but. ]
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) asString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ) printString.
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: (lButacas size) do: [:but | 
+(opcionButaca = ((but VerIdButaca) printString) )ifTrue: [ but OcuparButaca. butaca := but. ]
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca ) printString.
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=(but VerIdButaca) printString.
+idBut inspect.
+(opcionButaca = idBut )ifTrue: [ but OcuparButaca. butaca := but. ]
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!Butaca methodsFor!
+InitButaca: unId Ocupada: unBool
+	IdButaca := unId printString.
+	Ocupada := unBool! !
+!Butaca categoriesFor: #InitButaca:Ocupada:!public! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=but VerIdButaca.
+idBut inspect.
+(opcionButaca = idBut )ifTrue: [ but OcuparButaca. butaca := but. ]
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=but VerIdButaca.
+idBut inspect.
+"(opcionButaca = idBut )ifTrue: [ but OcuparButaca. butaca := but. ]"
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:='llego'.
+idBut inspect.
+"(opcionButaca = idBut )ifTrue: [ but OcuparButaca. butaca := but. ]"
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=but VerIdButaca .
+(opcionButaca = idBut )ifTrue: [Transcript  show: 'existe' ].
+
+"(opcionButaca = idBut )ifTrue: [ but OcuparButaca. butaca := but. ]"
+
+].
+].
+].
+
+
+opcionButaca inspect.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=(lButacas at:but) VerIdButaca.
+(opcionButaca = idBut )ifTrue: [lButacas at:but OcuparButaca. butaca := lButacas at:but. ].
+].
+].
+].
+
+
+Transcript show: 'paso';cr.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=(lButacas at:but) VerIdButaca.
+(opcionButaca = idBut )ifTrue: [(lButacas at:but )OcuparButaca. butaca := (lButacas at:but). ].
+].
+].
+].
+
+
+Transcript show: 'paso';cr.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+lButacas inspect.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=(lButacas at:but) VerIdButaca.
+(opcionButaca = idBut )ifTrue: [(lButacas at:but )OcuparButaca. butaca := (lButacas at:but). ].
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+Transcript clear.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+"01:22:42, martes, 27 de junio de 2023: Image saved"!
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=(lButacas at:but) VerIdButaca.
+(opcionButaca = idBut )ifTrue: [(lButacas at:but )OcuparButaca. butaca := (lButacas at:but). ].
+].
+].
+].
+
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+Transcript clear.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones idCliente cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+idCliente:= cliente VerIdCliente.
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=(lButacas at:but) VerIdButaca.
+(opcionButaca = idBut )ifTrue: [(lButacas at:but )OcuparButaca. butaca := (lButacas at:but). ].
+].
+].
+].
+Transcript clear.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: idCliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+Transcript show: 'Escriba una Opcion:';cr.
+Transcript show: 'Si';cr.
+Transcript show: 'No';cr.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+Transcript clear.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones  cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=(lButacas at:but) VerIdButaca.
+(opcionButaca = idBut )ifTrue: [(lButacas at:but )OcuparButaca. butaca := (lButacas at:but). ].
+].
+].
+].
+Transcript clear.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: Cliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+Transcript show: 'Escriba una Opcion:';cr.
+Transcript show: 'Si';cr.
+Transcript show: 'No';cr.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+Transcript clear.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones  cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+Transcript show: sala VerIdSala ;cr.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=(lButacas at:but) VerIdButaca.
+(opcionButaca = idBut )ifTrue: [(lButacas at:but )OcuparButaca. butaca := (lButacas at:but). ].
+].
+].
+].
+Transcript clear.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: cliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+Transcript show: 'Escriba una Opcion:';cr.
+Transcript show: 'Si';cr.
+Transcript show: 'No';cr.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+Transcript clear.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+AgregarReserva:cine
+|newCine opcion Reservacion funcion lstPeliculas lstSalas lstReservas lstCliente lstFunciones  cliente sala butacas idReserva pago opcionFuncion opcionCliente opcionButaca butaca|
+lstCliente:=cine ObtenerCliente.
+lstFunciones:= cine ObtenerFuciones.
+lstReservas:= cine ObtenerReservaciones.
+lstPeliculas:= cine ObtenerPeliculas.
+lstSalas:= cine ObtenerSalas.
+opcion:=''.
+[opcion = 'No']whileFalse: [
+
+Transcript clear.
+Transcript show: 'Lista de Clientes';cr.
+1 to:(lstCliente size) do: [:i |  
+|idClienteView nombreCliente|
+idClienteView:= ((lstCliente at:i)VerIdCliente).
+nombreCliente := ((lstCliente at:i)VerNombreCliente ).
+
+Transcript show: idClienteView,'   ' , nombreCliente;cr.
+].
+opcionCliente:= Prompter prompt: 'Seleccione un Cliente'.
+cliente:=lstCliente detect:[:cli| cli VerIdCliente =opcionCliente ] ifNone:[^nil].
+
+Transcript clear.
+
+Transcript show: 'Lista de Funciones';cr.
+1 to:(lstFunciones size) do: [:i |  
+|ordenFuncion nombrePeliculaFuncion diaHorarioFuncion|
+ordenFuncion:= ((lstFunciones at:i)VerIdFuncion ).
+nombrePeliculaFuncion := (((lstFunciones at:i)VerFuncionPelicula)VerNombrePelicula).
+diaHorarioFuncion:=((lstFunciones at:i)VerFucionDiaHorario).
+Transcript show: ordenFuncion,'   ' , nombrePeliculaFuncion,'   '  , diaHorarioFuncion;cr.
+].
+opcionFuncion:=Prompter prompt: 'Selecione una funcion'.
+funcion:= lstFunciones detect:[:func| func VerIdFuncion =opcionFuncion ] ifNone:[^nil].
+
+
+Transcript clear.
+Transcript show: funcion VerIdFuncion;cr.
+sala:=funcion VerFucionSala.
+butacas:= (sala VerSalaButacas)reject:[:but| but EstadoButaca = true ].
+Transcript show: 'Butacas Disponibles:';cr.
+1 to:(butacas size) do: [:i |  
+|idButaca ocupada|
+idButaca:= ((butacas at:i)VerIdButaca).
+ocupada := ((butacas at:i)EstadoButaca ) ifTrue: ['Ocupada'] ifFalse:['Libre'].
+Transcript show: idButaca,'   ',ocupada ;cr.
+].
+
+opcionButaca:=Prompter prompt: 'Selecione una Butaca'.
+1 to:(lstFunciones size) do: [:i |  
+((lstFunciones  at:i ) VerIdFuncion = (funcion VerIdFuncion ))ifTrue: [
+|lButacas|
+lButacas:=((lstFunciones at: i)VerFucionSala)VerSalaButacas.
+1 to: (lButacas size) do: [:but | 
+|idBut|
+idBut:=(lButacas at:but) VerIdButaca.
+(opcionButaca = idBut )ifTrue: [(lButacas at:but )OcuparButaca. butaca := (lButacas at:but). ].
+].
+].
+].
+Transcript clear.
+idReserva:=((lstReservas size) + 1) printString.
+pago:=true.
+Reservacion:= Reserva CrearReserva: idReserva Cliente: cliente Funcion: funcion Butaca: butaca Pago: pago.
+lstReservas add: Reservacion.
+Transcript show: 'Escriba una Opcion:';cr.
+Transcript show: 'Si';cr.
+Transcript show: 'No';cr.
+opcion:= Prompter prompt: 'Desea hacer otra Reservacion'.
+Transcript clear.
+].
+
+newCine:= Cine CrearCine: lstCliente Peliculas: lstPeliculas Reservaciones: lstReservas Funciones: lstFunciones Salas: lstSalas.
+^newCine
+
+
+
+
+
+
+
+"butaca:= butacas detect:[:but| but VerIdFuncion =opcionButaca ] ifNone:[^nil].
+butaca:= butaca OcuparButaca."
+
+
+
+
+
+
+
+
+
+! !
+!MenuPrincipal class categoriesFor: #AgregarReserva:!private! !
+
+!MenuPrincipal class methodsFor!
+ListarReservas:lstReservas
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(lstReservas size) do: [:i |  
+|idReserva nombreCliente horarioFuncion peliculaFuncion idSala|
+idReserva:= ((lstReservas at:i)VerIdReserva ).
+nombreCliente := (((lstReservas at:i)VerClienteReserva )VerNombreCliente ).
+horarioFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFucionDiaHorario.
+peliculaFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFuncionPelicula.
+idSala:=((lstReservas at:i)VerFuncionReserva ) VerIdSala .
+
+Transcript show: idReserva,'   ' , nombreCliente,'   '  , horarioFuncion,'   ',peliculaFuncion,'   ',idSala;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+! !
+!MenuPrincipal class categoriesFor: #ListarReservas:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarReservas:lstReservas
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(lstReservas size) do: [:i |  
+|idReserva nombreCliente horarioFuncion peliculaFuncion idSala|
+idReserva:= ((lstReservas at:i)VerIdReserva ).
+nombreCliente := (((lstReservas at:i)VerClienteReserva )VerNombreCliente ).
+horarioFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFucionDiaHorario.
+peliculaFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFuncionPelicula.
+idSala:=(((lstReservas at:i)VerFuncionReserva ) VerFucionSala)VerIdSala .
+
+Transcript show: idReserva,'   ' , nombreCliente,'   '  , horarioFuncion,'   ',peliculaFuncion,'   ',idSala;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+! !
+!MenuPrincipal class categoriesFor: #ListarReservas:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarReservas:lstReservas
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(lstReservas size) do: [:i |  
+|idReserva nombreCliente horarioFuncion peliculaFuncion idSala|
+idReserva:= ((lstReservas at:i)VerIdReserva ).
+nombreCliente := (((lstReservas at:i)VerClienteReserva )VerNombreCliente ).
+horarioFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFucionDiaHorario.
+peliculaFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFuncionPelicula.
+idSala:=(((lstReservas at:i)VerFuncionReserva ) VerFucionSala)VerIdSala .
+idReserva inspect.
+nombreCliente inspect.
+horarioFuncion inspect.
+peliculaFuncion inspect.
+idSala inspect.
+
+Transcript show: idReserva,'   ' , nombreCliente,'   '  , horarioFuncion,'   ',peliculaFuncion,'   ',idSala;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+! !
+!MenuPrincipal class categoriesFor: #ListarReservas:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarReservas:lstReservas
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(lstReservas size) do: [:i |  
+|idReserva nombreCliente horarioFuncion peliculaFuncion idSala|
+idReserva:= ((lstReservas at:i)VerIdReserva ).
+nombreCliente := (((lstReservas at:i)VerClienteReserva )VerNombreCliente ).
+horarioFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFucionDiaHorario.
+peliculaFuncion:=(((lstReservas at:i)VerFuncionReserva ) VerFuncionPelicula)VerNombrePelicula .
+idSala:=(((lstReservas at:i)VerFuncionReserva ) VerFucionSala)VerIdSala .
+idReserva inspect.
+nombreCliente inspect.
+horarioFuncion inspect.
+peliculaFuncion inspect.
+idSala inspect.
+
+Transcript show: idReserva,'   ' , nombreCliente,'   '  , horarioFuncion,'   ',peliculaFuncion,'   ',idSala;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+! !
+!MenuPrincipal class categoriesFor: #ListarReservas:!private! !
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarReservas:lstReservas
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(lstReservas size) do: [:i |  
+|idReserva nombreCliente horarioFuncion peliculaFuncion idSala|
+idReserva:= ((lstReservas at:i)VerIdReserva ).
+nombreCliente := (((lstReservas at:i)VerClienteReserva )VerNombreCliente ).
+horarioFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFucionDiaHorario.
+peliculaFuncion:=(((lstReservas at:i)VerFuncionReserva ) VerFuncionPelicula)VerNombrePelicula .
+idSala:=(((lstReservas at:i)VerFuncionReserva ) VerFucionSala)VerIdSala .
+
+Transcript show: idReserva,'   ' , nombreCliente,'   '  , horarioFuncion,'   ',peliculaFuncion,'   ',idSala;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+! !
+!MenuPrincipal class categoriesFor: #ListarReservas:!private! !
+
+!MenuPrincipal class methodsFor!
+ListarReservas:lstReservas
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(lstReservas size) do: [:i |  
+|idReserva nombreCliente horarioFuncion peliculaFuncion idSala|
+idReserva:= ((lstReservas at:i)VerIdReserva ).
+nombreCliente := (((lstReservas at:i)VerClienteReserva )VerNombreCliente ).
+horarioFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFucionDiaHorario.
+peliculaFuncion:=(((lstReservas at:i)VerFuncionReserva ) VerFuncionPelicula)VerNombrePelicula .
+idSala:=(((lstReservas at:i)VerFuncionReserva ) VerFucionSala)VerIdSala .
+
+Transcript show: idReserva,'   ' , nombreCliente,'   '  , horarioFuncion,'   ',peliculaFuncion,'   ',idSala;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+! !
+!MenuPrincipal class categoriesFor: #ListarReservas:!private! !
+
+"01:44:44, martes, 27 de junio de 2023: Image saved"!
+
+|menu|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+!MenuPrincipal class methodsFor!
+ListarReservas:lstReservas
+|opcion |
+Transcript clear.
+Transcript show: 'Listas de Funciones:';cr.
+1 to:(lstReservas size) do: [:i |  
+|idReserva nombreCliente horarioFuncion peliculaFuncion idSala butaca|
+idReserva:= ((lstReservas at:i)VerIdReserva ).
+nombreCliente := (((lstReservas at:i)VerClienteReserva )VerNombreCliente ).
+horarioFuncion:=((lstReservas at:i)VerFuncionReserva ) VerFucionDiaHorario.
+peliculaFuncion:=(((lstReservas at:i)VerFuncionReserva ) VerFuncionPelicula)VerNombrePelicula .
+idSala:=(((lstReservas at:i)VerFuncionReserva ) VerFucionSala)VerIdSala .
+butaca := ((lstReservas at:i)VerButacaReserva )VerIdButaca .
+
+Transcript show: idReserva,'   ' , nombreCliente,'   '  , horarioFuncion,'   ',peliculaFuncion,'   ',butaca ,'   ',idSala;cr.
+].
+Transcript show: 'Opciones:';cr.
+Transcript show: '1 - Volver al Menu Pricipal';cr.
+opcion:='0'.
+[opcion = '1']whileFalse:[
+opcion:= Prompter prompt: 'Seleccione una Opcion'.
+].
+Transcript clear.
+! !
+!MenuPrincipal class categoriesFor: #ListarReservas:!private! !
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+"01:52:28, martes, 27 de junio de 2023: Image saved"!
+
+| menu menuString|
+menu:= MenuPrincipal CrearMenuPricipal.!
+
+"02:06:31, martes, 27 de junio de 2023: Image saved"!
+
+"02:06:50, martes, 27 de junio de 2023: Image saved"!
+
+"02:07:05, martes, 27 de junio de 2023: Dolphin Smalltalk Professional started"!
+
+"02:08:21, martes, 27 de junio de 2023: Image saved"!
+

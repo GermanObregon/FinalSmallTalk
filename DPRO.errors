@@ -1270,3 +1270,1971 @@ Command>>value
 ShellView>>performCommand:
 ----------------------------------------------------------------------------------------------------
 
+22:54:50, domingo, 25 de junio de 2023: Unhandled exception - a MessageNotUnderstood('MenuPrincipal does not understand #ispect')
+
+MenuPrincipal(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+23:45:36, domingo, 25 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #appendToStream:')
+
+SmallInteger(Object)>>doesNotUnderstand:
+WriteStream>>nextPutAll:
+[] in TranscriptShell>>nextPutAll:
+[] in Mutex>>critical:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Mutex>>critical:
+TranscriptShell>>nextPutAll:
+TranscriptShell>>show:
+MenuPrincipal class>>ListarPeliculas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+----------------------------------------------------------------------------------------------------
+
+23:46:37, domingo, 25 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #appendToStream:')
+
+SmallInteger(Object)>>doesNotUnderstand:
+WriteStream>>nextPutAll:
+[] in TranscriptShell>>nextPutAll:
+[] in Mutex>>critical:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Mutex>>critical:
+TranscriptShell>>nextPutAll:
+TranscriptShell>>show:
+MenuPrincipal class>>ListarPeliculas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+----------------------------------------------------------------------------------------------------
+
+01:20:04, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('Pelicula does not understand #appendToStream:')
+
+Pelicula(Object)>>doesNotUnderstand:
+WriteStream>>nextPutAll:
+[] in TranscriptShell>>nextPutAll:
+[] in Mutex>>critical:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Mutex>>critical:
+TranscriptShell>>nextPutAll:
+TranscriptShell>>show:
+MenuPrincipal class>>ListarFuciones:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+----------------------------------------------------------------------------------------------------
+
+01:21:19, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('Pelicula does not understand #appendToStream:')
+
+Pelicula(Object)>>doesNotUnderstand:
+WriteStream>>nextPutAll:
+[] in TranscriptShell>>nextPutAll:
+[] in Mutex>>critical:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Mutex>>critical:
+TranscriptShell>>nextPutAll:
+TranscriptShell>>show:
+MenuPrincipal class>>ListarFuciones:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+----------------------------------------------------------------------------------------------------
+
+01:35:51, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('Funcion does not understand #VerNombrePelicula')
+
+Funcion(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarFuciones:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+
+********************************************************************************
+************************** Dolphin Crash Dump Report ***************************
+
+3:07:14 AM, 6/26/2023: Dolphin7.exe caused an unhandled Win32 Exception A0000204
+at 772DD8A2 in module 771A0000 (C:\WINDOWS\System32\KERNELBASE.dll)
+
+*----> Exception Parameters <----*
+00000000	
+
+*----> CPU Context for thread 0x1d9c <----*
+EAX = 00C0F998 EBX = 00FF02FC ECX = 00000001
+ESI = 00FF031C EDI = 04BF0126 EIP = 772DD8A2
+ESP = 00C0F998 EBP = 00C0F9F0 EFL = 00200212
+CS = 0023 SS = 002B DS = 002B
+ES = 002B FS = 0053 GS = 002B
+
+*----> VM Context <----*
+Process: {00FF0004:size 482 words, suspended frame 00FF0771, priority 5, callbacks 1
+last failure 0:nil, FPE mask 3, thread 00000000}
+Active Method: SessionManager>>quit:
+IP: 04BF0126 (6)
+SP: 00FF031C
+BP: 00FF02FC (175)
+ActiveFrame: {00FF0300: cf 00FF02E1, sp 00FF0314, bp 00FF02FC, ip 2, DevelopmentSessionManager(SessionManager)>>quit:}
+	receiver: a DevelopmentSessionManager
+	arg[0]: 0
+
+
+New Method: SessionManager>>primQuit:
+Message Selector: primQuit:
+
+*----> Stack Back Trace <----*
+{00FF0300: cf 00FF02E1, sp 00FF0314, bp 00FF02FC, ip 2, DevelopmentSessionManager(SessionManager)>>quit:}
+	receiver: a DevelopmentSessionManager
+	arg[0]: 0
+
+{00FF02E0: cf 00FF02C5, sp 00FF02F4, bp 00FF02E0, ip 5, DevelopmentSessionManager>>onQueryWindowsShutdown}
+	receiver: a DevelopmentSessionManager
+
+{00FF02C4: cf 00FF029D, sp 00FF02D8, bp 00FF02B8, ip 4, ShellView(View)>>wmQueryEndSession:wParam:lParam:}
+	receiver: a ShellView
+	arg[0]: 17
+	arg[1]: 0
+	arg[2]: 1
+
+{00FF029C: cf 00FF026D, sp 00FF02B0, bp 00FF0288, ip 23, ShellView(View)>>dispatchMessage:wParam:lParam:}
+	receiver: a ShellView
+	arg[0]: 17
+	arg[1]: 0
+	arg[2]: 1
+	stack temp[0]: nil
+	stack temp[1]: wmQueryEndSession:wParam:lParam:
+
+{00FF026C: cf 00FF0239, sp 00FF0280, bp 00FF025C, ip 70, [] in InputState>>wndProc:message:wParam:lParam:cookie:}
+	receiver: nil
+
+{00FF0238: cf 00FF0211, sp 00FF024C, bp 00FF0234, ip 18, BlockClosure>>ifCurtailed:}
+	receiver: [] @ 0 in nil
+	arg[0]: [] @ 11 in ProcessorScheduler>>callback:evaluate:
+
+{00FF0210: cf 00FF01ED, sp 00FF022C, bp 00FF0208, ip 15, ProcessorScheduler>>callback:evaluate:}
+	receiver: a ProcessorScheduler
+	arg[0]: 6323504
+	arg[1]: [] @ 64 in InputState>>wndProc:message:wParam:lParam:cookie:
+
+{00FF01EC: cf 00FF01A1, sp 00FF0200, bp 00FF01D4, ip 73, InputState>>wndProc:message:wParam:lParam:cookie:}
+	receiver: a InputState
+	arg[0]: 332210
+	arg[1]: 17
+	arg[2]: 0
+	arg[3]: 1
+	arg[4]: 6323504
+	stack temp[0]: a ShellView
+
+{00FF01A0: cf 00FF0181, sp 00FF01CC, bp 00FF019C, ip 14, InputState>>isInputReady:}
+	receiver: a InputState
+	arg[0]: a MSG
+
+{00FF0180: cf 00FF0155, sp 00FF0194, bp 00FF0170, ip 13, InputState>>loopWhile:}
+	receiver: a InputState
+	arg[0]: [] @ 9 in InputState>>mainLoop
+	stack temp[0]: a MSG
+	stack temp[1]: false
+	stack temp[2]: [] @ 8 in Toolbar>>updateSizePosted
+
+{00FF0154: cf 00FF0139, sp 00FF0168, bp 00FF0154, ip 15, InputState>>mainLoop}
+	receiver: a InputState
+
+{00FF0138: cf 00FF011D, sp 00FF014C, bp 00FF0138, ip 14, [] in InputState>>forkMain}
+	receiver: a InputState
+
+{00FF011C: cf 00FF0101, sp 00FF0130, bp 00FF011C, ip 13, ExceptionHandler(ExceptionHandlerAbstract)>>markAndTry}
+	receiver: a ExceptionHandler
+
+{00FF0100: cf 00FF00D9, sp 00FF0114, bp 00FF00FC, ip 22, [] in ExceptionHandler(ExceptionHandlerAbstract)>>try:}
+	receiver: a ExceptionHandler
+
+{00FF00D8: cf 00FF00B9, sp 00FF00EC, bp 00FF00D4, ip 18, BlockClosure>>ifCurtailed:}
+	receiver: [] @ 0 in nil
+	arg[0]: [] @ 39 in ExceptionHandlerAbstract>>try:
+
+{00FF00B8: cf 00FF0095, sp 00FF00CC, bp 00FF00B0, ip 3, BlockClosure>>ensure:}
+	receiver: [] @ 17 in ExceptionHandlerAbstract>>try:
+	arg[0]: [] @ 39 in ExceptionHandlerAbstract>>try:
+	stack temp[0]: nil
+
+{00FF0094: cf 00FF006D, sp 00FF00A8, bp 00FF0088, ip 44, ExceptionHandler(ExceptionHandlerAbstract)>>try:}
+	receiver: a ExceptionHandler
+	arg[0]: [] @ 10 in InputState>>forkMain
+	stack temp[0]: nil
+	stack temp[1]: a Process('Main' base 00FF0000 [ACTIVE] in SessionManager>>quit: sp=00000000 ip=1 list=10050010)
+	env temp[0]: nil
+
+{00FF006C: cf 00FF0049, sp 00FF0080, bp 00FF0064, ip 7, BlockClosure>>on:do:}
+	receiver: [] @ 10 in InputState>>forkMain
+	arg[0]: ProcessTermination
+	arg[1]: [] @ 13 in BlockClosure>>newProcess
+
+{00FF0048: cf 00000001, sp 00FF005C, bp 00FF0048, ip 17, [] in BlockClosure>>newProcess}
+	receiver: [] @ 10 in InputState>>forkMain
+
+<Bottom of stack>
+
+*----> Stack <----*
+[00FF031C: 183]-->0
+[00FF0318: 182]-->a DevelopmentSessionManager
+[00FF0314: 181]-->8356222
+[00FF0310: 180]-->8356234
+[00FF030C: 179]-->1
+[00FF0308: 178]-->8356208
+[00FF0304: 177]-->0
+[00FF0300: 176]-->SessionManager>>quit:
+[00FF02FC: 175]-->0
+[00FF02F8: 174]-->a DevelopmentSessionManager
+[00FF02F4: 173]-->8356208
+[00FF02F0: 172]-->8356218
+[00FF02EC: 171]-->4
+[00FF02E8: 170]-->8356194
+[00FF02E4: 169]-->0
+[00FF02E0: 168]-->DevelopmentSessionManager>>onQueryWindowsShutdown
+[00FF02DC: 167]-->a DevelopmentSessionManager
+[00FF02D8: 166]-->8356188
+[00FF02D4: 165]-->8356204
+[00FF02D0: 164]-->3
+[00FF02CC: 163]-->8356174
+[00FF02C8: 162]-->0
+[00FF02C4: 161]-->View>>wmQueryEndSession:wParam:lParam:
+[00FF02C0: 160]-->1
+[00FF02BC: 159]-->0
+[00FF02B8: 158]-->17
+[00FF02B4: 157]-->a ShellView
+[00FF02B0: 156]-->8356164
+[00FF02AC: 155]-->8356184
+[00FF02A8: 154]-->22
+[00FF02A4: 153]-->8356150
+[00FF02A0: 152]-->0
+[00FF029C: 151]-->View>>dispatchMessage:wParam:lParam:
+[00FF0298: 150]-->wmQueryEndSession:wParam:lParam:
+[00FF0294: 149]-->nil
+[00FF0290: 148]-->1
+[00FF028C: 147]-->0
+[00FF0288: 146]-->17
+[00FF0284: 145]-->a ShellView
+[00FF0280: 144]-->8356142
+[00FF027C: 143]-->8356160
+[00FF0278: 142]-->69
+[00FF0274: 141]-->8356124
+[00FF0270: 140]-->[] @ 64 in InputState>>wndProc:message:wParam:lParam:cookie:
+[00FF026C: 139]-->InputState>>wndProc:message:wParam:lParam:cookie:
+[00FF0268: 138]-->a ShellView
+[00FF0264: 137]-->0
+[00FF0260: 136]-->17
+[00FF025C: 135]-->1
+[00FF0258: 134]-->nil
+[00FF0254: 133]-->[] @ 9 in BlockClosure>>ifCurtailed:
+[00FF0250: 132]-->[] @ 64 in InputState>>wndProc:message:wParam:lParam:cookie:
+[00FF024C: 131]-->8356122
+[00FF0248: 130]-->8356134
+[00FF0244: 129]-->17
+[00FF0240: 128]-->8356104
+[00FF023C: 127]-->0
+[00FF0238: 126]-->BlockClosure>>ifCurtailed:
+[00FF0234: 125]-->[] @ 11 in ProcessorScheduler>>callback:evaluate:
+[00FF0230: 124]-->[] @ 0 in nil
+[00FF022C: 123]-->6323504
+[00FF0228: 122]-->a ProcessorScheduler
+[00FF0224: 121]-->8356100
+[00FF0220: 120]-->8356118
+[00FF021C: 119]-->14
+[00FF0218: 118]-->8356086
+[00FF0214: 117]-->0
+[00FF0210: 116]-->ProcessorScheduler>>callback:evaluate:
+[00FF020C: 115]-->[] @ 64 in InputState>>wndProc:message:wParam:lParam:cookie:
+[00FF0208: 114]-->6323504
+[00FF0204: 113]-->a ProcessorScheduler
+[00FF0200: 112]-->8356074
+[00FF01FC: 111]-->8356096
+[00FF01F8: 110]-->72
+[00FF01F4: 109]-->8356048
+[00FF01F0: 108]-->0
+[00FF01EC: 107]-->InputState>>wndProc:message:wParam:lParam:cookie:
+[00FF01E8: 106]-->a ShellView
+[00FF01E4: 105]-->6323504
+[00FF01E0: 104]-->1
+[00FF01DC: 103]-->0
+[00FF01D8: 102]-->17
+[00FF01D4: 101]-->332210
+[00FF01D0: 100]-->a InputState
+[00FF01CC: 99]-->0
+[00FF01C8: 98]-->0
+[00FF01C4: 97]-->0
+[00FF01C0: 96]-->0
+[00FF01BC: 95]-->a MSG
+[00FF01B8: 94]-->a UserLibrary
+[00FF01B4: 93]-->8356046
+[00FF01B0: 92]-->8356070
+[00FF01AC: 91]-->13
+[00FF01A8: 90]-->8356032
+[00FF01A4: 89]-->0
+[00FF01A0: 88]-->InputState>>isInputReady:
+[00FF019C: 87]-->a MSG
+[00FF0198: 86]-->a InputState
+[00FF0194: 85]-->8356024
+[00FF0190: 84]-->8356042
+[00FF018C: 83]-->12
+[00FF0188: 82]-->8356010
+[00FF0184: 81]-->0
+[00FF0180: 80]-->InputState>>loopWhile:
+[00FF017C: 79]-->[] @ 8 in Toolbar>>updateSizePosted
+[00FF0178: 78]-->false
+[00FF0174: 77]-->a MSG
+[00FF0170: 76]-->[] @ 9 in InputState>>mainLoop
+[00FF016C: 75]-->a InputState
+[00FF0168: 74]-->8356010
+[00FF0164: 73]-->8356020
+[00FF0160: 72]-->14
+[00FF015C: 71]-->8355996
+[00FF0158: 70]-->0
+[00FF0154: 69]-->InputState>>mainLoop
+[00FF0150: 68]-->a InputState
+[00FF014C: 67]-->8355996
+[00FF0148: 66]-->8356006
+[00FF0144: 65]-->13
+[00FF0140: 64]-->8355982
+[00FF013C: 63]-->[] @ 10 in InputState>>forkMain
+[00FF0138: 62]-->InputState>>forkMain
+[00FF0134: 61]-->a InputState
+[00FF0130: 60]-->8355982
+[00FF012C: 59]-->8355992
+[00FF0128: 58]-->12
+[00FF0124: 57]-->8355968
+[00FF0120: 56]-->a Context for: nil frame: ff011d
+[00FF011C: 55]-->ExceptionHandlerAbstract>>markAndTry
+[00FF0118: 54]-->a ExceptionHandler
+[00FF0114: 53]-->8355966
+[00FF0110: 52]-->8355978
+[00FF010C: 51]-->21
+[00FF0108: 50]-->8355948
+[00FF0104: 49]-->[] @ 17 in ExceptionHandlerAbstract>>try:
+[00FF0100: 48]-->ExceptionHandlerAbstract>>try:
+[00FF00FC: 47]-->a Process('Main' base 00FF0000 [ACTIVE] in SessionManager>>quit: sp=00000000 ip=1 list=10050010)
+[00FF00F8: 46]-->a ExceptionHandler
+[00FF00F4: 45]-->[] @ 9 in BlockClosure>>ifCurtailed:
+[00FF00F0: 44]-->[] @ 17 in ExceptionHandlerAbstract>>try:
+[00FF00EC: 43]-->8355946
+[00FF00E8: 42]-->8355958
+[00FF00E4: 41]-->17
+[00FF00E0: 40]-->8355932
+[00FF00DC: 39]-->0
+[00FF00D8: 38]-->BlockClosure>>ifCurtailed:
+[00FF00D4: 37]-->[] @ 39 in ExceptionHandlerAbstract>>try:
+[00FF00D0: 36]-->[] @ 0 in nil
+[00FF00CC: 35]-->8355928
+[00FF00C8: 34]-->8355942
+[00FF00C4: 33]-->2
+[00FF00C0: 32]-->8355914
+[00FF00BC: 31]-->0
+[00FF00B8: 30]-->BlockClosure>>ensure:
+[00FF00B4: 29]-->nil
+[00FF00B0: 28]-->[] @ 39 in ExceptionHandlerAbstract>>try:
+[00FF00AC: 27]-->[] @ 17 in ExceptionHandlerAbstract>>try:
+[00FF00A8: 26]-->8355908
+[00FF00A4: 25]-->8355924
+[00FF00A0: 24]-->43
+[00FF009C: 23]-->8355894
+[00FF0098: 22]-->a Context for: nil frame: ff0095
+[00FF0094: 21]-->ExceptionHandlerAbstract>>try:
+[00FF0090: 20]-->a Process('Main' base 00FF0000 [ACTIVE] in SessionManager>>quit: sp=00000000 ip=1 list=10050010)
+[00FF008C: 19]-->nil
+[00FF0088: 18]-->[] @ 10 in InputState>>forkMain
+[00FF0084: 17]-->a ExceptionHandler
+[00FF0080: 16]-->8355890
+[00FF007C: 15]-->8355904
+[00FF0078: 14]-->6
+[00FF0074: 13]-->8355876
+[00FF0070: 12]-->0
+[00FF006C: 11]-->BlockClosure>>on:do:
+[00FF0068: 10]-->[] @ 13 in BlockClosure>>newProcess
+[00FF0064: 9]-->ProcessTermination
+[00FF0060: 8]-->[] @ 10 in InputState>>forkMain
+[00FF005C: 7]-->8355876
+[00FF0058: 6]-->8355886
+[00FF0054: 5]-->16
+[00FF0050: 4]-->0
+[00FF004C: 3]-->[] @ 9 in BlockClosure>>newProcess
+[00FF0048: 2]-->BlockClosure>>newProcess
+[00FF0044: 1]-->[] @ 10 in InputState>>forkMain
+<Bottom of stack>
+
+***** End of crash report *****
+
+20:06:00, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #cr')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+20:06:29, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #cr')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+20:06:43, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #cr')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+20:07:09, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #cr')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+20:07:58, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Transcript')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+20:08:21, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Transcript')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+20:08:52, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #Transcript')
+
+String(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+20:11:36, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('TranscriptShell does not understand #showLine:')
+
+TranscriptShell(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+20:37:58, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #asString')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarFuciones:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+20:39:45, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarFuciones:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+20:40:13, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('DevelopmentSessionManager does not understand #,')
+
+DevelopmentSessionManager(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarFuciones:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+20:46:28, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarFuciones:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+20:48:02, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #asString')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarFuciones:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+20:48:49, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #asString')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarFuciones:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+21:48:20, lunes, 26 de junio de 2023: Unhandled exception - a NotFoundError('Not found: 2')
+
+ListView(Object)>>errorNotFound:
+[] in ListView(ListControlView)>>objectFromHandle:
+ListModel(SequenceableCollection)>>at:ifAbsent:
+ListView(ListControlView)>>objectFromHandle:ifAbsent:
+ListView(ListControlView)>>objectFromHandle:
+[] in ListView(ListControlView)>>selections
+[] in SequenceableCollection>>collect:
+Array(SequenceableCollection)>>uncheckedFrom:to:keysAndValuesDo:
+Array(SequenceableCollection)>>keysAndValuesDo:
+Array(SequenceableCollection)>>collect:
+ListView(ListControlView)>>selections
+ListPresenter(SelectableItemsPresenter)>>selections
+MethodBrowser(SelectableItemsPresenter)>>selections
+MethodBrowser>>queryCommand:
+DelegatingCommandPolicy(CommandPolicy)>>queryCommand:ofTarget:
+[] in DelegatingCommandPolicy(CommandPolicy)>>queryCommand:
+OrderedCollection>>do:
+DelegatingCommandPolicy(CommandPolicy)>>queryCommand:
+DelegatingCommandPolicy(CommandPolicy)>>query:
+ToolbarIconButton(ToolbarButton)>>validateUserInterface:
+----------------------------------------------------------------------------------------------------
+
+23:33:19, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('UndefinedObject does not understand #ObtenerCliente')
+
+Object>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+23:34:57, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+23:42:42, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #asString')
+
+SmallInteger(Object)>>doesNotUnderstand:
+Sala class>>CrearButacas:
+Sala>>InitSala:CantButacas:
+Sala class>>CrearSala:CantButacas:
+MenuPrincipal class>>CrearListaSalas
+MenuPrincipal class>>LoadData
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+----------------------------------------------------------------------------------------------------
+
+23:44:19, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #asString')
+
+SmallInteger(Object)>>doesNotUnderstand:
+Sala class>>CrearButacas:
+Sala>>InitSala:CantButacas:
+Sala class>>CrearSala:CantButacas:
+MenuPrincipal class>>CrearListaSalas
+MenuPrincipal class>>LoadData
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+----------------------------------------------------------------------------------------------------
+
+23:46:46, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+23:52:24, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+23:53:38, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+23:55:21, lunes, 26 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:01:59, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:03:45, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:04:44, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:05:00, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('DevelopmentSessionManager does not understand #,')
+
+DevelopmentSessionManager(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:05:01, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('DevelopmentSessionManager does not understand #appendToStream:')
+
+DevelopmentSessionManager(Object)>>doesNotUnderstand:
+WriteStream>>nextPutAll:
+[] in TranscriptShell>>nextPutAll:
+[] in Mutex>>critical:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Mutex>>critical:
+TranscriptShell>>nextPutAll:
+TranscriptShell>>show:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+----------------------------------------------------------------------------------------------------
+
+00:06:28, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #asString')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:09:15, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #asString')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:10:31, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:12:57, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:14:47, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:16:09, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('False does not understand #asString')
+
+False(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:18:23, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('True does not understand #asString')
+
+True(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+00:19:24, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('True does not understand #asString')
+
+True(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+00:20:39, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('True does not understand #asStringObject')
+
+True(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+00:21:05, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('True does not understand #asString')
+
+True(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+00:25:35, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:27:08, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:28:20, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:29:58, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #,')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:31:23, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #appendToStream:')
+
+SmallInteger(Object)>>doesNotUnderstand:
+WriteStream>>nextPutAll:
+[] in TranscriptShell>>nextPutAll:
+[] in Mutex>>critical:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Mutex>>critical:
+TranscriptShell>>nextPutAll:
+TranscriptShell>>show:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+----------------------------------------------------------------------------------------------------
+
+00:33:04, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #asString')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:35:00, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #asString')
+
+SmallInteger(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+00:37:18, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #prinString')
+
+SmallInteger(Object)>>doesNotUnderstand:
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+00:39:37, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #VerIdButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:42:08, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #VerIdButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:50:03, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #VerIdButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:51:13, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #VerIdButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:55:45, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #VerIdButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:59:04, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #VerIdButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+01:01:21, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #VerIdButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+01:04:39, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #VerIdButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+01:06:58, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #VerIdButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+01:14:11, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #VerIdButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+01:18:40, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('SmallInteger does not understand #OcuparButaca')
+
+SmallInteger(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+01:23:26, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #VerNombreCliente')
+
+String(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarReservas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+01:27:44, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('String does not understand #VerNombreCliente')
+
+String(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarReservas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+01:34:11, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('Reserva does not understand #VerFucionSala')
+
+Reserva(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarReservas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+01:37:06, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('Funcion does not understand #VerIdSala')
+
+Funcion(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarReservas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+01:38:58, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('Pelicula does not understand #replaceBytesOf:from:to:startingAt:')
+
+Pelicula(Object)>>doesNotUnderstand:
+String>>replaceFrom:to:with:startingAt:
+String(SequenceableCollection)>>,
+MenuPrincipal class>>ListarReservas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+01:41:33, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('Pelicula does not understand #replaceBytesOf:from:to:startingAt:')
+
+Pelicula(Object)>>doesNotUnderstand:
+String>>replaceFrom:to:with:startingAt:
+String(SequenceableCollection)>>,
+MenuPrincipal class>>ListarReservas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
