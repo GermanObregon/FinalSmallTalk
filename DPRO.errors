@@ -3238,3 +3238,651 @@ ShellView>>performCommand:
 SmalltalkWorkspaceDocument(Shell)>>performCommand:
 ----------------------------------------------------------------------------------------------------
 
+21:18:40, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('TranscriptShell does not understand #Clear')
+
+TranscriptShell(Object)>>doesNotUnderstand:
+MenuPrincipal class>>ListarFuncionesPorUsuario:LstClientes:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+23:27:13, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('False does not understand #EstadoButaca')
+
+False(Object)>>doesNotUnderstand:
+MenuPrincipal class>>VerEstadoButacaSala:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+23:29:55, martes, 27 de junio de 2023: Unhandled exception - a MessageNotUnderstood('False does not understand #EstadoButaca')
+
+False(Object)>>doesNotUnderstand:
+MenuPrincipal class>>VerEstadoButacaSala:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+22:55:09, miércoles, 28 de junio de 2023: Unhandled exception - a NotFoundError('Not found: 1')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+23:04:12, miércoles, 28 de junio de 2023: Unhandled exception - a NotFoundError('Not found: 2')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+23:08:07, miércoles, 28 de junio de 2023: Unhandled exception - a NotFoundError('Not found: 2')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+23:11:36, miércoles, 28 de junio de 2023: Unhandled exception - a MessageNotUnderstood('UndefinedObject does not understand #ObtenerPeliculas')
+
+Object>>doesNotUnderstand:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+[] in ScintillaView(View)>>onCommand:
+----------------------------------------------------------------------------------------------------
+
+23:12:00, miércoles, 28 de junio de 2023: Unhandled exception - a NotFoundError('Not found: 16')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+23:50:45, miércoles, 28 de junio de 2023: Unhandled exception - an Error('Must be boolean')
+
+Object>>error:
+Object>>mustBeBoolean
+Funcion>>CrearInfoButacas
+Funcion>>InitFuncion:Pelicula:Sala:DiaYHorario:
+Funcion class>>CrearFuncion:Pelicula:Sala:DiaYHorario:
+MenuPrincipal class>>CrearFucnciones:Salas:
+MenuPrincipal class>>LoadData
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+23:55:47, miércoles, 28 de junio de 2023: Unhandled exception - an Error('Must be boolean')
+
+String(Object)>>error:
+String(Object)>>mustBeBoolean
+Funcion>>CrearInfoButacas
+Funcion>>InitFuncion:Pelicula:Sala:DiaYHorario:
+Funcion class>>CrearFuncion:Pelicula:Sala:DiaYHorario:
+MenuPrincipal class>>CrearFucnciones:Salas:
+MenuPrincipal class>>LoadData
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+23:59:04, miércoles, 28 de junio de 2023: Unhandled exception - an Error('Must be boolean')
+
+String(Object)>>error:
+String(Object)>>mustBeBoolean
+Funcion>>CrearInfoButacas
+Funcion>>InitFuncion:Pelicula:Sala:DiaYHorario:
+Funcion class>>CrearFuncion:Pelicula:Sala:DiaYHorario:
+MenuPrincipal class>>CrearFucnciones:Salas:
+MenuPrincipal class>>LoadData
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+00:02:50, jueves, 29 de junio de 2023: Unhandled exception - an Error('Must be boolean')
+
+String(Object)>>error:
+String(Object)>>mustBeBoolean
+Funcion>>CrearInfoButacas
+Funcion>>InitFuncion:Pelicula:Sala:DiaYHorario:
+Funcion class>>CrearFuncion:Pelicula:Sala:DiaYHorario:
+MenuPrincipal class>>CrearFucnciones:Salas:
+MenuPrincipal class>>LoadData
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+----------------------------------------------------------------------------------------------------
+
+00:07:32, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+00:11:22, jueves, 29 de junio de 2023: Unhandled exception - an Error('Must be boolean')
+
+BlockClosure(Object)>>error:
+BlockClosure(Object)>>mustBeBoolean
+[] in MenuPrincipal class>>AgregarReserva:
+[] in Collection>>reject:
+[] in OrderedCollection>>select:
+OrderedCollection>>do:
+OrderedCollection>>select:
+OrderedCollection(Collection)>>reject:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+----------------------------------------------------------------------------------------------------
+
+00:15:33, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+00:26:15, jueves, 29 de junio de 2023: Unhandled exception - a MessageNotUnderstood('False does not understand #asString')
+
+False(Object)>>doesNotUnderstand:
+MenuPrincipal class>>AgregarReserva:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+CommandQuery>>perform
+DelegatingCommandPolicy(CommandPolicy)>>route:
+----------------------------------------------------------------------------------------------------
+
+00:29:54, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+00:35:09, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+00:40:24, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+00:47:06, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+00:49:21, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+00:50:29, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+00:55:39, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+00:58:42, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+01:07:33, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+01:14:03, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: false')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
+01:19:54, jueves, 29 de junio de 2023: Unhandled exception - a NotFoundError('Not found: ')
+
+Dictionary(Object)>>errorNotFound:
+Dictionary>>errorKeyNotFound:
+Dictionary>>at:
+MenuPrincipal class>>VerButacasPagasoReservadas:
+MenuPrincipal>>InitMenuPrincipal
+MenuPrincipal class>>CrearMenuPricipal
+UndefinedObject>>{unbound}doIt
+CompiledExpression>>value:
+SmalltalkWorkspace>>evaluateRange:ifFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:debug:
+SmalltalkWorkspace>>evaluateItIfFail:
+SmalltalkWorkspace>>inspectIt
+Symbol>>forwardTo:
+CommandDescription>>performAgainst:
+[] in Command>>value
+BlockClosure>>ifCurtailed:
+BlockClosure>>ensure:
+Command>>value
+ShellView>>performCommand:
+SmalltalkWorkspaceDocument(Shell)>>performCommand:
+----------------------------------------------------------------------------------------------------
+
